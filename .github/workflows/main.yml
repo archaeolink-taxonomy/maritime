@@ -6,7 +6,7 @@ on:
           - main
 jobs:
   build:
-   uses: archaeolink-lod/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
+   uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
    with: 
      rdffilepath: data/navisone_maritime_thesaurus.ttl
      docpath: docs/ 
