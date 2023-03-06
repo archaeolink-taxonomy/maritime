@@ -1,0 +1,16 @@
+name: Ontology Documentation CI
+
+on: 
+  push: 
+      branches:
+          - main
+jobs:
+  build:
+   uses: archaeolink-lod/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
+   with: 
+     rdffilepath: data/navisone_maritime_thesaurus.ttl
+     docpath: docs/ 
+     prefixns: http://data.archaeology.link/data/maritimethesaurus/
+     prefixnsshort: nomt
+     indexpages: true
+     ghpages: true
