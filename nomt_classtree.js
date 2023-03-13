@@ -54,7 +54,58 @@ var tree={
         "parent": "#",
         "type": "class",
         "text": "ConceptScheme (skos:ConceptScheme) [1]",
-        "data": {}
+        "data": {
+          "to": {
+            "http://creativecommons.org/ns#attributionName": {
+              "instancecount": 1
+            },
+            "http://creativecommons.org/ns#attributionURL": {
+              "instancecount": 1
+            },
+            "http://creativecommons.org/ns#license": {
+              "instancecount": 1
+            },
+            "http://purl.org/dc/terms/creator": {
+              "instancecount": 2
+            },
+            "http://purl.org/dc/terms/date": {
+              "instancecount": 1
+            },
+            "http://purl.org/dc/terms/identifier": {
+              "instancecount": 1
+            },
+            "http://purl.org/dc/terms/license": {
+              "instancecount": 1
+            },
+            "http://purl.org/dc/terms/publisher": {
+              "instancecount": 1
+            },
+            "http://purl.org/dc/terms/title": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#label": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/2004/02/skos/core#hasTopConcept": {
+              "instancecount": 16,
+              "http://www.w3.org/2004/02/skos/core#Concept": 16
+            }
+          },
+          "from": {
+            "http://www.w3.org/2004/02/skos/core#inScheme": {
+              "instancecount": 0,
+              "http://www.w3.org/2004/02/skos/core#Concept": 231
+            },
+            "http://www.w3.org/2004/02/skos/core#topConceptOf": {
+              "instancecount": 0,
+              "http://www.w3.org/2004/02/skos/core#Concept": 16
+            }
+          }
+        },
+        "instancecount": 28
       },
       {
         "id": "http://data.archaeology.link/data/maritimethesaurus/1001",
@@ -1678,7 +1729,65 @@ var tree={
         "parent": "#",
         "type": "class",
         "text": "Concept (skos:Concept) [231]",
-        "data": {}
+        "data": {
+          "to": {
+            "http://creativecommons.org/ns#attributionName": {
+              "instancecount": 1
+            },
+            "http://creativecommons.org/ns#attributionURL": {
+              "instancecount": 1
+            },
+            "http://creativecommons.org/ns#license": {
+              "instancecount": 1
+            },
+            "http://purl.org/dc/terms/identifier": {
+              "instancecount": 1
+            },
+            "http://purl.org/dc/terms/issued": {
+              "instancecount": 1
+            },
+            "http://purl.org/dc/terms/publisher": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#label": {
+              "instancecount": 2
+            },
+            "http://www.w3.org/2004/02/skos/core#broader": {
+              "instancecount": 1,
+              "http://www.w3.org/2004/02/skos/core#Concept": 1
+            },
+            "http://www.w3.org/2004/02/skos/core#inScheme": {
+              "instancecount": 1,
+              "http://www.w3.org/2004/02/skos/core#ConceptScheme": 1
+            },
+            "http://www.w3.org/2004/02/skos/core#note": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/2004/02/skos/core#prefLabel": {
+              "instancecount": 2
+            },
+            "http://www.w3.org/ns/prov#wasAttributedTo": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/ns/prov#wasDerivedFrom": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/ns/prov#wasGeneratedBy": {
+              "instancecount": 1,
+              "http://www.w3.org/ns/prov#Activity": 1
+            }
+          },
+          "from": {
+            "http://www.w3.org/2004/02/skos/core#narrower": {
+              "instancecount": 0,
+              "http://www.w3.org/2004/02/skos/core#Concept": 1
+            }
+          }
+        },
+        "instancecount": 17
       },
       {
         "id": "http://data.archaeology.link/data/maritimethesaurus/activity_1001",
@@ -3302,7 +3411,29 @@ var tree={
         "parent": "#",
         "type": "class",
         "text": "Activity (prov:Activity) [231]",
-        "data": {}
+        "data": {
+          "to": {
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/ns/prov#endedAtTime": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/ns/prov#startedAtTime": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/ns/prov#wasAssociatedWith": {
+              "instancecount": 1
+            }
+          },
+          "from": {
+            "http://www.w3.org/ns/prov#wasGeneratedBy": {
+              "instancecount": 0,
+              "http://www.w3.org/2004/02/skos/core#Concept": 1
+            }
+          }
+        },
+        "instancecount": 4
       }
     ]
   }
