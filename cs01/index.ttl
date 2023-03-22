@@ -1,28 +1,34 @@
-<http://data.archaeology.link/data/maritimethesaurus/cs01> <http://creativecommons.org/ns#attributionName> "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des RGZM" .
-<http://data.archaeology.link/data/maritimethesaurus/cs01> <http://creativecommons.org/ns#attributionURL> <http://www.wikidata.org/entity/Q115264627> .
-<http://data.archaeology.link/data/maritimethesaurus/cs01> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by-sa/4.0/> .
-<http://data.archaeology.link/data/maritimethesaurus/cs01> <http://purl.org/dc/terms/creator> <http://www.wikidata.org/entity/Q66606154> .
-<http://data.archaeology.link/data/maritimethesaurus/cs01> <http://purl.org/dc/terms/creator> <http://www.wikidata.org/entity/Q88865971> .
-<http://data.archaeology.link/data/maritimethesaurus/cs01> <http://purl.org/dc/terms/date> "2022-11-18" .
-<http://data.archaeology.link/data/maritimethesaurus/cs01> <http://purl.org/dc/terms/identifier> <http://www.wikidata.org/entity/Q115264680> .
-<http://data.archaeology.link/data/maritimethesaurus/cs01> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by-sa/4.0/> .
-<http://data.archaeology.link/data/maritimethesaurus/cs01> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q115264627> .
-<http://data.archaeology.link/data/maritimethesaurus/cs01> <http://purl.org/dc/terms/title> "Navis.one Maritime Thesaurus" .
-<http://data.archaeology.link/data/maritimethesaurus/cs01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
-<http://data.archaeology.link/data/maritimethesaurus/cs01> <http://www.w3.org/2000/01/rdf-schema#label> "Navis.one Maritime Thesaurus" .
-<http://data.archaeology.link/data/maritimethesaurus/cs01> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.archaeology.link/data/maritimethesaurus/1001> .
-<http://data.archaeology.link/data/maritimethesaurus/cs01> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.archaeology.link/data/maritimethesaurus/1002> .
-<http://data.archaeology.link/data/maritimethesaurus/cs01> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.archaeology.link/data/maritimethesaurus/1006> .
-<http://data.archaeology.link/data/maritimethesaurus/cs01> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.archaeology.link/data/maritimethesaurus/1007> .
-<http://data.archaeology.link/data/maritimethesaurus/cs01> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.archaeology.link/data/maritimethesaurus/1008> .
-<http://data.archaeology.link/data/maritimethesaurus/cs01> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.archaeology.link/data/maritimethesaurus/1003> .
-<http://data.archaeology.link/data/maritimethesaurus/cs01> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.archaeology.link/data/maritimethesaurus/1004> .
-<http://data.archaeology.link/data/maritimethesaurus/cs01> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.archaeology.link/data/maritimethesaurus/1009> .
-<http://data.archaeology.link/data/maritimethesaurus/cs01> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.archaeology.link/data/maritimethesaurus/1010> .
-<http://data.archaeology.link/data/maritimethesaurus/cs01> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.archaeology.link/data/maritimethesaurus/1011> .
-<http://data.archaeology.link/data/maritimethesaurus/cs01> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.archaeology.link/data/maritimethesaurus/1012> .
-<http://data.archaeology.link/data/maritimethesaurus/cs01> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.archaeology.link/data/maritimethesaurus/1013> .
-<http://data.archaeology.link/data/maritimethesaurus/cs01> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.archaeology.link/data/maritimethesaurus/1014> .
-<http://data.archaeology.link/data/maritimethesaurus/cs01> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.archaeology.link/data/maritimethesaurus/1015> .
-<http://data.archaeology.link/data/maritimethesaurus/cs01> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.archaeology.link/data/maritimethesaurus/1016> .
-<http://data.archaeology.link/data/maritimethesaurus/cs01> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.archaeology.link/data/maritimethesaurus/1019> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://creativecommons.org/ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://data.archaeology.link/data/maritimethesaurus/cs01> a skos:ConceptScheme ;
+    rdfs:label "Navis.one Maritime Thesaurus" ;
+    ns1:attributionName "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des RGZM" ;
+    ns1:attributionURL <http://www.wikidata.org/entity/Q115264627> ;
+    ns1:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    dcterms:creator <http://www.wikidata.org/entity/Q66606154>,
+        <http://www.wikidata.org/entity/Q88865971> ;
+    dcterms:date "2022-11-18" ;
+    dcterms:identifier <http://www.wikidata.org/entity/Q115264680> ;
+    dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    dcterms:publisher <http://www.wikidata.org/entity/Q115264627> ;
+    dcterms:title "Navis.one Maritime Thesaurus" ;
+    skos:hasTopConcept <http://data.archaeology.link/data/maritimethesaurus/1001>,
+        <http://data.archaeology.link/data/maritimethesaurus/1002>,
+        <http://data.archaeology.link/data/maritimethesaurus/1003>,
+        <http://data.archaeology.link/data/maritimethesaurus/1004>,
+        <http://data.archaeology.link/data/maritimethesaurus/1006>,
+        <http://data.archaeology.link/data/maritimethesaurus/1007>,
+        <http://data.archaeology.link/data/maritimethesaurus/1008>,
+        <http://data.archaeology.link/data/maritimethesaurus/1009>,
+        <http://data.archaeology.link/data/maritimethesaurus/1010>,
+        <http://data.archaeology.link/data/maritimethesaurus/1011>,
+        <http://data.archaeology.link/data/maritimethesaurus/1012>,
+        <http://data.archaeology.link/data/maritimethesaurus/1013>,
+        <http://data.archaeology.link/data/maritimethesaurus/1014>,
+        <http://data.archaeology.link/data/maritimethesaurus/1015>,
+        <http://data.archaeology.link/data/maritimethesaurus/1016>,
+        <http://data.archaeology.link/data/maritimethesaurus/1019> .
+

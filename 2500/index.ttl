@@ -1,33 +1,45 @@
-<http://data.archaeology.link/data/maritimethesaurus/2500> <http://creativecommons.org/ns#attributionName> "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des RGZM" .
-<http://data.archaeology.link/data/maritimethesaurus/2500> <http://creativecommons.org/ns#attributionURL> <http://www.wikidata.org/entity/Q115264627> .
-<http://data.archaeology.link/data/maritimethesaurus/2500> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by-sa/4.0/> .
-<http://data.archaeology.link/data/maritimethesaurus/2500> <http://purl.org/dc/terms/identifier> <http://data.archaeology.link/data/maritimethesaurus/> .
-<http://data.archaeology.link/data/maritimethesaurus/2500> <http://purl.org/dc/terms/issued> "2022-11-18T13:14:49.019471+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-<http://data.archaeology.link/data/maritimethesaurus/2500> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q115264627> .
-<http://data.archaeology.link/data/maritimethesaurus/2500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://data.archaeology.link/data/maritimethesaurus/2500> <http://www.w3.org/2000/01/rdf-schema#label> "Getreidelt"@de .
-<http://data.archaeology.link/data/maritimethesaurus/2500> <http://www.w3.org/2000/01/rdf-schema#label> "Towed"@en .
-<http://data.archaeology.link/data/maritimethesaurus/2500> <http://www.w3.org/2000/01/rdf-schema#label> "Trukket"@dk .
-<http://data.archaeology.link/data/maritimethesaurus/2500> <http://www.w3.org/2000/01/rdf-schema#label> "Gejaagd"@nl .
-<http://data.archaeology.link/data/maritimethesaurus/2500> <http://www.w3.org/2000/01/rdf-schema#label> "Tiré"@fr .
-<http://data.archaeology.link/data/maritimethesaurus/2500> <http://www.w3.org/2000/01/rdf-schema#label> "A traino"@it .
-<http://data.archaeology.link/data/maritimethesaurus/2500> <http://www.w3.org/2000/01/rdf-schema#label> "a la sirga"@es .
-<http://data.archaeology.link/data/maritimethesaurus/2500> <http://www.w3.org/2000/01/rdf-schema#label> "Holowanie"@pl .
-<http://data.archaeology.link/data/maritimethesaurus/2500> <http://www.w3.org/2000/01/rdf-schema#label> "Ρυμουλκούμενο"@gr .
-<http://data.archaeology.link/data/maritimethesaurus/2500> <http://www.w3.org/2000/01/rdf-schema#label> "נגרר"@he .
-<http://data.archaeology.link/data/maritimethesaurus/2500> <http://www.w3.org/2004/02/skos/core#broader> <http://data.archaeology.link/data/maritimethesaurus/1003> .
-<http://data.archaeology.link/data/maritimethesaurus/2500> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.archaeology.link/data/maritimethesaurus/cs01> .
-<http://data.archaeology.link/data/maritimethesaurus/2500> <http://www.w3.org/2004/02/skos/core#note> "This is a Concept of NAVIS I or NAVIS II."@en .
-<http://data.archaeology.link/data/maritimethesaurus/2500> <http://www.w3.org/2004/02/skos/core#prefLabel> "Getreidelt"@de .
-<http://data.archaeology.link/data/maritimethesaurus/2500> <http://www.w3.org/2004/02/skos/core#prefLabel> "Towed"@en .
-<http://data.archaeology.link/data/maritimethesaurus/2500> <http://www.w3.org/2004/02/skos/core#prefLabel> "Trukket"@dk .
-<http://data.archaeology.link/data/maritimethesaurus/2500> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gejaagd"@nl .
-<http://data.archaeology.link/data/maritimethesaurus/2500> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tiré"@fr .
-<http://data.archaeology.link/data/maritimethesaurus/2500> <http://www.w3.org/2004/02/skos/core#prefLabel> "A traino"@it .
-<http://data.archaeology.link/data/maritimethesaurus/2500> <http://www.w3.org/2004/02/skos/core#prefLabel> "a la sirga"@es .
-<http://data.archaeology.link/data/maritimethesaurus/2500> <http://www.w3.org/2004/02/skos/core#prefLabel> "Holowanie"@pl .
-<http://data.archaeology.link/data/maritimethesaurus/2500> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ρυμουλκούμενο"@gr .
-<http://data.archaeology.link/data/maritimethesaurus/2500> <http://www.w3.org/2004/02/skos/core#prefLabel> "נגרר"@he .
-<http://data.archaeology.link/data/maritimethesaurus/2500> <http://www.w3.org/ns/prov#wasAttributedTo> <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> .
-<http://data.archaeology.link/data/maritimethesaurus/2500> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.wikidata.org/entity/Q115264680> .
-<http://data.archaeology.link/data/maritimethesaurus/2500> <http://www.w3.org/ns/prov#wasGeneratedBy> <http://data.archaeology.link/data/maritimethesaurus/activity_2500> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix ns2: <http://creativecommons.org/ns#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/maritimethesaurus/2500> a rdfs:Class,
+        skos:Concept ;
+    rdfs:label "Getreidelt"@de,
+        "Trukket"@dk,
+        "Towed"@en,
+        "a la sirga"@es,
+        "Tiré"@fr,
+        "Ρυμουλκούμενο"@gr,
+        "נגרר"@he,
+        "A traino"@it,
+        "Gejaagd"@nl,
+        "Holowanie"@pl ;
+    ns1:identifier_db "2225" ;
+    ns1:origin_description "tblPropulsion" ;
+    ns2:attributionName "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des LEIZA" ;
+    ns2:attributionURL <http://www.wikidata.org/entity/Q115264627> ;
+    ns2:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    dcterms:identifier <http://data.archaeology.link/data/maritimethesaurus/> ;
+    dcterms:issued "2023-03-22T11:43:34.228688+00:00"^^xsd:dateTime ;
+    dcterms:publisher <http://www.wikidata.org/entity/Q115264627> ;
+    skos:broader <http://data.archaeology.link/data/maritimethesaurus/1003> ;
+    skos:inScheme <http://data.archaeology.link/data/maritimethesaurus/cs01> ;
+    skos:note "This is a parent Concept of NAVIS I or NAVIS II and now NAVISone."@en ;
+    skos:prefLabel "Getreidelt"@de,
+        "Trukket"@dk,
+        "Towed"@en,
+        "a la sirga"@es,
+        "Tiré"@fr,
+        "Ρυμουλκούμενο"@gr,
+        "נגרר"@he,
+        "A traino"@it,
+        "Gejaagd"@nl,
+        "Holowanie"@pl ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q115264680> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/maritimethesaurus/activity_2500> .
+

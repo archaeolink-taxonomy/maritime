@@ -1,33 +1,45 @@
-<http://data.archaeology.link/data/maritimethesaurus/2488> <http://creativecommons.org/ns#attributionName> "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des RGZM" .
-<http://data.archaeology.link/data/maritimethesaurus/2488> <http://creativecommons.org/ns#attributionURL> <http://www.wikidata.org/entity/Q115264627> .
-<http://data.archaeology.link/data/maritimethesaurus/2488> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by-sa/4.0/> .
-<http://data.archaeology.link/data/maritimethesaurus/2488> <http://purl.org/dc/terms/identifier> <http://data.archaeology.link/data/maritimethesaurus/> .
-<http://data.archaeology.link/data/maritimethesaurus/2488> <http://purl.org/dc/terms/issued> "2022-11-18T13:14:49.019471+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-<http://data.archaeology.link/data/maritimethesaurus/2488> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q115264627> .
-<http://data.archaeology.link/data/maritimethesaurus/2488> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://data.archaeology.link/data/maritimethesaurus/2488> <http://www.w3.org/2000/01/rdf-schema#label> "Militärfahrzeug"@de .
-<http://data.archaeology.link/data/maritimethesaurus/2488> <http://www.w3.org/2000/01/rdf-schema#label> "Military vessel"@en .
-<http://data.archaeology.link/data/maritimethesaurus/2488> <http://www.w3.org/2000/01/rdf-schema#label> "Militærfart&øj"@dk .
-<http://data.archaeology.link/data/maritimethesaurus/2488> <http://www.w3.org/2000/01/rdf-schema#label> "Oorlogsschip"@nl .
-<http://data.archaeology.link/data/maritimethesaurus/2488> <http://www.w3.org/2000/01/rdf-schema#label> "Navire de guerre"@fr .
-<http://data.archaeology.link/data/maritimethesaurus/2488> <http://www.w3.org/2000/01/rdf-schema#label> "Imbarcazione militare"@it .
-<http://data.archaeology.link/data/maritimethesaurus/2488> <http://www.w3.org/2000/01/rdf-schema#label> "buque de guerra"@es .
-<http://data.archaeology.link/data/maritimethesaurus/2488> <http://www.w3.org/2000/01/rdf-schema#label> "Jednostka bojowa"@pl .
-<http://data.archaeology.link/data/maritimethesaurus/2488> <http://www.w3.org/2000/01/rdf-schema#label> "Πολεμικό"@gr .
-<http://data.archaeology.link/data/maritimethesaurus/2488> <http://www.w3.org/2000/01/rdf-schema#label> "אוניית מלחמה"@he .
-<http://data.archaeology.link/data/maritimethesaurus/2488> <http://www.w3.org/2004/02/skos/core#broader> <http://data.archaeology.link/data/maritimethesaurus/1001> .
-<http://data.archaeology.link/data/maritimethesaurus/2488> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.archaeology.link/data/maritimethesaurus/cs01> .
-<http://data.archaeology.link/data/maritimethesaurus/2488> <http://www.w3.org/2004/02/skos/core#note> "This is a Concept of NAVIS I or NAVIS II."@en .
-<http://data.archaeology.link/data/maritimethesaurus/2488> <http://www.w3.org/2004/02/skos/core#prefLabel> "Militärfahrzeug"@de .
-<http://data.archaeology.link/data/maritimethesaurus/2488> <http://www.w3.org/2004/02/skos/core#prefLabel> "Military vessel"@en .
-<http://data.archaeology.link/data/maritimethesaurus/2488> <http://www.w3.org/2004/02/skos/core#prefLabel> "Militærfart&øj"@dk .
-<http://data.archaeology.link/data/maritimethesaurus/2488> <http://www.w3.org/2004/02/skos/core#prefLabel> "Oorlogsschip"@nl .
-<http://data.archaeology.link/data/maritimethesaurus/2488> <http://www.w3.org/2004/02/skos/core#prefLabel> "Navire de guerre"@fr .
-<http://data.archaeology.link/data/maritimethesaurus/2488> <http://www.w3.org/2004/02/skos/core#prefLabel> "Imbarcazione militare"@it .
-<http://data.archaeology.link/data/maritimethesaurus/2488> <http://www.w3.org/2004/02/skos/core#prefLabel> "buque de guerra"@es .
-<http://data.archaeology.link/data/maritimethesaurus/2488> <http://www.w3.org/2004/02/skos/core#prefLabel> "Jednostka bojowa"@pl .
-<http://data.archaeology.link/data/maritimethesaurus/2488> <http://www.w3.org/2004/02/skos/core#prefLabel> "Πολεμικό"@gr .
-<http://data.archaeology.link/data/maritimethesaurus/2488> <http://www.w3.org/2004/02/skos/core#prefLabel> "אוניית מלחמה"@he .
-<http://data.archaeology.link/data/maritimethesaurus/2488> <http://www.w3.org/ns/prov#wasAttributedTo> <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> .
-<http://data.archaeology.link/data/maritimethesaurus/2488> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.wikidata.org/entity/Q115264680> .
-<http://data.archaeology.link/data/maritimethesaurus/2488> <http://www.w3.org/ns/prov#wasGeneratedBy> <http://data.archaeology.link/data/maritimethesaurus/activity_2488> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://creativecommons.org/ns#> .
+@prefix ns2: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/maritimethesaurus/2488> a rdfs:Class,
+        skos:Concept ;
+    rdfs:label "Militärfahrzeug"@de,
+        "Militærfartøj"@dk,
+        "Military vessel"@en,
+        "buque de guerra"@es,
+        "Navire de guerre"@fr,
+        "Πολεμικό"@gr,
+        "אוניית מלחמה"@he,
+        "Imbarcazione militare"@it,
+        "Oorlogsschip"@nl,
+        "Jednostka bojowa"@pl ;
+    ns2:identifier_db "2201" ;
+    ns2:origin_description "tblShipFunction" ;
+    ns1:attributionName "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des LEIZA" ;
+    ns1:attributionURL <http://www.wikidata.org/entity/Q115264627> ;
+    ns1:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    dcterms:identifier <http://data.archaeology.link/data/maritimethesaurus/> ;
+    dcterms:issued "2023-03-22T11:43:34.228688+00:00"^^xsd:dateTime ;
+    dcterms:publisher <http://www.wikidata.org/entity/Q115264627> ;
+    skos:broader <http://data.archaeology.link/data/maritimethesaurus/1001> ;
+    skos:inScheme <http://data.archaeology.link/data/maritimethesaurus/cs01> ;
+    skos:note "This is a parent Concept of NAVIS I or NAVIS II and now NAVISone."@en ;
+    skos:prefLabel "Militärfahrzeug"@de,
+        "Militærfartøj"@dk,
+        "Military vessel"@en,
+        "buque de guerra"@es,
+        "Navire de guerre"@fr,
+        "Πολεμικό"@gr,
+        "אוניית מלחמה"@he,
+        "Imbarcazione militare"@it,
+        "Oorlogsschip"@nl,
+        "Jednostka bojowa"@pl ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q115264680> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/maritimethesaurus/activity_2488> .
+

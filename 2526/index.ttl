@@ -1,33 +1,45 @@
-<http://data.archaeology.link/data/maritimethesaurus/2526> <http://creativecommons.org/ns#attributionName> "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des RGZM" .
-<http://data.archaeology.link/data/maritimethesaurus/2526> <http://creativecommons.org/ns#attributionURL> <http://www.wikidata.org/entity/Q115264627> .
-<http://data.archaeology.link/data/maritimethesaurus/2526> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by-sa/4.0/> .
-<http://data.archaeology.link/data/maritimethesaurus/2526> <http://purl.org/dc/terms/identifier> <http://data.archaeology.link/data/maritimethesaurus/> .
-<http://data.archaeology.link/data/maritimethesaurus/2526> <http://purl.org/dc/terms/issued> "2022-11-18T13:14:49.025432+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-<http://data.archaeology.link/data/maritimethesaurus/2526> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q115264627> .
-<http://data.archaeology.link/data/maritimethesaurus/2526> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://data.archaeology.link/data/maritimethesaurus/2526> <http://www.w3.org/2000/01/rdf-schema#label> "Dollbord"@de .
-<http://data.archaeology.link/data/maritimethesaurus/2526> <http://www.w3.org/2000/01/rdf-schema#label> "Gunwale"@en .
-<http://data.archaeology.link/data/maritimethesaurus/2526> <http://www.w3.org/2000/01/rdf-schema#label> "Essing"@dk .
-<http://data.archaeology.link/data/maritimethesaurus/2526> <http://www.w3.org/2000/01/rdf-schema#label> "Dolboord"@nl .
-<http://data.archaeology.link/data/maritimethesaurus/2526> <http://www.w3.org/2000/01/rdf-schema#label> "Plat-Bord"@fr .
-<http://data.archaeology.link/data/maritimethesaurus/2526> <http://www.w3.org/2000/01/rdf-schema#label> "Capo di banda"@it .
-<http://data.archaeology.link/data/maritimethesaurus/2526> <http://www.w3.org/2000/01/rdf-schema#label> "regala o borda"@es .
-<http://data.archaeology.link/data/maritimethesaurus/2526> <http://www.w3.org/2000/01/rdf-schema#label> "Mocnica burtowa"@pl .
-<http://data.archaeology.link/data/maritimethesaurus/2526> <http://www.w3.org/2000/01/rdf-schema#label> "Κουπαστή"@gr .
-<http://data.archaeology.link/data/maritimethesaurus/2526> <http://www.w3.org/2000/01/rdf-schema#label> "לזבזת עליונה"@he .
-<http://data.archaeology.link/data/maritimethesaurus/2526> <http://www.w3.org/2004/02/skos/core#broader> <http://data.archaeology.link/data/maritimethesaurus/1006> .
-<http://data.archaeology.link/data/maritimethesaurus/2526> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.archaeology.link/data/maritimethesaurus/cs01> .
-<http://data.archaeology.link/data/maritimethesaurus/2526> <http://www.w3.org/2004/02/skos/core#note> "This is a Concept of NAVIS I or NAVIS II."@en .
-<http://data.archaeology.link/data/maritimethesaurus/2526> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dollbord"@de .
-<http://data.archaeology.link/data/maritimethesaurus/2526> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gunwale"@en .
-<http://data.archaeology.link/data/maritimethesaurus/2526> <http://www.w3.org/2004/02/skos/core#prefLabel> "Essing"@dk .
-<http://data.archaeology.link/data/maritimethesaurus/2526> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dolboord"@nl .
-<http://data.archaeology.link/data/maritimethesaurus/2526> <http://www.w3.org/2004/02/skos/core#prefLabel> "Plat-Bord"@fr .
-<http://data.archaeology.link/data/maritimethesaurus/2526> <http://www.w3.org/2004/02/skos/core#prefLabel> "Capo di banda"@it .
-<http://data.archaeology.link/data/maritimethesaurus/2526> <http://www.w3.org/2004/02/skos/core#prefLabel> "regala o borda"@es .
-<http://data.archaeology.link/data/maritimethesaurus/2526> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mocnica burtowa"@pl .
-<http://data.archaeology.link/data/maritimethesaurus/2526> <http://www.w3.org/2004/02/skos/core#prefLabel> "Κουπαστή"@gr .
-<http://data.archaeology.link/data/maritimethesaurus/2526> <http://www.w3.org/2004/02/skos/core#prefLabel> "לזבזת עליונה"@he .
-<http://data.archaeology.link/data/maritimethesaurus/2526> <http://www.w3.org/ns/prov#wasAttributedTo> <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> .
-<http://data.archaeology.link/data/maritimethesaurus/2526> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.wikidata.org/entity/Q115264680> .
-<http://data.archaeology.link/data/maritimethesaurus/2526> <http://www.w3.org/ns/prov#wasGeneratedBy> <http://data.archaeology.link/data/maritimethesaurus/activity_2526> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix ns2: <http://creativecommons.org/ns#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/maritimethesaurus/2526> a rdfs:Class,
+        skos:Concept ;
+    rdfs:label "Dollbord"@de,
+        "Essing"@dk,
+        "Gunwale"@en,
+        "regala o borda"@es,
+        "Plat-Bord"@fr,
+        "Κουπαστή"@gr,
+        "לזבזת עליונה"@he,
+        "Capo di banda"@it,
+        "Dolboord"@nl,
+        "Mocnica burtowa"@pl ;
+    ns1:identifier_db "2403" ;
+    ns1:origin_description "tblDictionaryHULL" ;
+    ns2:attributionName "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des LEIZA" ;
+    ns2:attributionURL <http://www.wikidata.org/entity/Q115264627> ;
+    ns2:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    dcterms:identifier <http://data.archaeology.link/data/maritimethesaurus/> ;
+    dcterms:issued "2023-03-22T11:43:34.235707+00:00"^^xsd:dateTime ;
+    dcterms:publisher <http://www.wikidata.org/entity/Q115264627> ;
+    skos:broader <http://data.archaeology.link/data/maritimethesaurus/1006> ;
+    skos:inScheme <http://data.archaeology.link/data/maritimethesaurus/cs01> ;
+    skos:note "This is a parent Concept of NAVIS I or NAVIS II and now NAVISone."@en ;
+    skos:prefLabel "Dollbord"@de,
+        "Essing"@dk,
+        "Gunwale"@en,
+        "regala o borda"@es,
+        "Plat-Bord"@fr,
+        "Κουπαστή"@gr,
+        "לזבזת עליונה"@he,
+        "Capo di banda"@it,
+        "Dolboord"@nl,
+        "Mocnica burtowa"@pl ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q115264680> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/maritimethesaurus/activity_2526> .
+

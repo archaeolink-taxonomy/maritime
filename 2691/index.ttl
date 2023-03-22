@@ -1,27 +1,39 @@
-<http://data.archaeology.link/data/maritimethesaurus/2691> <http://creativecommons.org/ns#attributionName> "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des RGZM" .
-<http://data.archaeology.link/data/maritimethesaurus/2691> <http://creativecommons.org/ns#attributionURL> <http://www.wikidata.org/entity/Q115264627> .
-<http://data.archaeology.link/data/maritimethesaurus/2691> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by-sa/4.0/> .
-<http://data.archaeology.link/data/maritimethesaurus/2691> <http://purl.org/dc/terms/identifier> <http://data.archaeology.link/data/maritimethesaurus/> .
-<http://data.archaeology.link/data/maritimethesaurus/2691> <http://purl.org/dc/terms/issued> "2022-11-18T13:14:49.023431+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-<http://data.archaeology.link/data/maritimethesaurus/2691> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q115264627> .
-<http://data.archaeology.link/data/maritimethesaurus/2691> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://data.archaeology.link/data/maritimethesaurus/2691> <http://www.w3.org/2000/01/rdf-schema#label> "Schandeckel"@de .
-<http://data.archaeology.link/data/maritimethesaurus/2691> <http://www.w3.org/2000/01/rdf-schema#label> "covering board"@en .
-<http://data.archaeology.link/data/maritimethesaurus/2691> <http://www.w3.org/2000/01/rdf-schema#label> "skandæk"@dk .
-<http://data.archaeology.link/data/maritimethesaurus/2691> <http://www.w3.org/2000/01/rdf-schema#label> "potdeksel"@nl .
-<http://data.archaeology.link/data/maritimethesaurus/2691> <http://www.w3.org/2000/01/rdf-schema#label> "plat bord"@fr .
-<http://data.archaeology.link/data/maritimethesaurus/2691> <http://www.w3.org/2000/01/rdf-schema#label> "bordo"@it .
-<http://data.archaeology.link/data/maritimethesaurus/2691> <http://www.w3.org/2000/01/rdf-schema#label> "regala"@es .
-<http://data.archaeology.link/data/maritimethesaurus/2691> <http://www.w3.org/2004/02/skos/core#broader> <http://data.archaeology.link/data/maritimethesaurus/1006> .
-<http://data.archaeology.link/data/maritimethesaurus/2691> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.archaeology.link/data/maritimethesaurus/cs01> .
-<http://data.archaeology.link/data/maritimethesaurus/2691> <http://www.w3.org/2004/02/skos/core#note> "This is a Concept of NAVIS I or NAVIS II."@en .
-<http://data.archaeology.link/data/maritimethesaurus/2691> <http://www.w3.org/2004/02/skos/core#prefLabel> "Schandeckel"@de .
-<http://data.archaeology.link/data/maritimethesaurus/2691> <http://www.w3.org/2004/02/skos/core#prefLabel> "covering board"@en .
-<http://data.archaeology.link/data/maritimethesaurus/2691> <http://www.w3.org/2004/02/skos/core#prefLabel> "skandæk"@dk .
-<http://data.archaeology.link/data/maritimethesaurus/2691> <http://www.w3.org/2004/02/skos/core#prefLabel> "potdeksel"@nl .
-<http://data.archaeology.link/data/maritimethesaurus/2691> <http://www.w3.org/2004/02/skos/core#prefLabel> "plat bord"@fr .
-<http://data.archaeology.link/data/maritimethesaurus/2691> <http://www.w3.org/2004/02/skos/core#prefLabel> "bordo"@it .
-<http://data.archaeology.link/data/maritimethesaurus/2691> <http://www.w3.org/2004/02/skos/core#prefLabel> "regala"@es .
-<http://data.archaeology.link/data/maritimethesaurus/2691> <http://www.w3.org/ns/prov#wasAttributedTo> <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> .
-<http://data.archaeology.link/data/maritimethesaurus/2691> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.wikidata.org/entity/Q115264680> .
-<http://data.archaeology.link/data/maritimethesaurus/2691> <http://www.w3.org/ns/prov#wasGeneratedBy> <http://data.archaeology.link/data/maritimethesaurus/activity_2691> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://creativecommons.org/ns#> .
+@prefix ns2: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/maritimethesaurus/2691> a rdfs:Class,
+        skos:Concept ;
+    rdfs:label "Schandeckel"@de,
+        "skandæk"@dk,
+        "covering board"@en,
+        "regala"@es,
+        "plat bord"@fr,
+        "bordo"@it,
+        "potdeksel"@nl ;
+    ns2:identifier_db "4734" ;
+    ns2:origin_description "tblWoordenboek" ;
+    ns1:attributionName "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des LEIZA" ;
+    ns1:attributionURL <http://www.wikidata.org/entity/Q115264627> ;
+    ns1:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    dcterms:identifier <http://data.archaeology.link/data/maritimethesaurus/> ;
+    dcterms:issued "2023-03-22T11:43:34.231702+00:00"^^xsd:dateTime ;
+    dcterms:publisher <http://www.wikidata.org/entity/Q115264627> ;
+    skos:broader <http://data.archaeology.link/data/maritimethesaurus/1006> ;
+    skos:inScheme <http://data.archaeology.link/data/maritimethesaurus/cs01> ;
+    skos:note "This is a parent Concept of NAVIS I or NAVIS II and now NAVISone."@en ;
+    skos:prefLabel "Schandeckel"@de,
+        "skandæk"@dk,
+        "covering board"@en,
+        "regala"@es,
+        "plat bord"@fr,
+        "bordo"@it,
+        "potdeksel"@nl ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q115264680> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/maritimethesaurus/activity_2691> .
+

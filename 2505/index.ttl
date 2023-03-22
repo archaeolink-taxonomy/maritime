@@ -1,33 +1,45 @@
-<http://data.archaeology.link/data/maritimethesaurus/2505> <http://creativecommons.org/ns#attributionName> "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des RGZM" .
-<http://data.archaeology.link/data/maritimethesaurus/2505> <http://creativecommons.org/ns#attributionURL> <http://www.wikidata.org/entity/Q115264627> .
-<http://data.archaeology.link/data/maritimethesaurus/2505> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by-sa/4.0/> .
-<http://data.archaeology.link/data/maritimethesaurus/2505> <http://purl.org/dc/terms/identifier> <http://data.archaeology.link/data/maritimethesaurus/> .
-<http://data.archaeology.link/data/maritimethesaurus/2505> <http://purl.org/dc/terms/issued> "2022-11-18T13:14:49.026434+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-<http://data.archaeology.link/data/maritimethesaurus/2505> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q115264627> .
-<http://data.archaeology.link/data/maritimethesaurus/2505> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://data.archaeology.link/data/maritimethesaurus/2505> <http://www.w3.org/2000/01/rdf-schema#label> "Gepaddelt und gesegelt"@de .
-<http://data.archaeology.link/data/maritimethesaurus/2505> <http://www.w3.org/2000/01/rdf-schema#label> "Paddled and sailed"@en .
-<http://data.archaeology.link/data/maritimethesaurus/2505> <http://www.w3.org/2000/01/rdf-schema#label> "Padlet og sejlet"@dk .
-<http://data.archaeology.link/data/maritimethesaurus/2505> <http://www.w3.org/2000/01/rdf-schema#label> "Gepeddeld en gezeild"@nl .
-<http://data.archaeology.link/data/maritimethesaurus/2505> <http://www.w3.org/2000/01/rdf-schema#label> "À pagaye et à voile"@fr .
-<http://data.archaeology.link/data/maritimethesaurus/2505> <http://www.w3.org/2000/01/rdf-schema#label> "A pagaia e a vela"@it .
-<http://data.archaeology.link/data/maritimethesaurus/2505> <http://www.w3.org/2000/01/rdf-schema#label> "a canalete y a vela"@es .
-<http://data.archaeology.link/data/maritimethesaurus/2505> <http://www.w3.org/2000/01/rdf-schema#label> "Wiosłowanie z ręki i żeglowanie"@pl .
-<http://data.archaeology.link/data/maritimethesaurus/2505> <http://www.w3.org/2000/01/rdf-schema#label> "Κωπήλατο (ταρσοπλοϊα)  και Ιστιοφόρο"@gr .
-<http://data.archaeology.link/data/maritimethesaurus/2505> <http://www.w3.org/2000/01/rdf-schema#label> "דיווש ומושט"@he .
-<http://data.archaeology.link/data/maritimethesaurus/2505> <http://www.w3.org/2004/02/skos/core#broader> <http://data.archaeology.link/data/maritimethesaurus/1003> .
-<http://data.archaeology.link/data/maritimethesaurus/2505> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.archaeology.link/data/maritimethesaurus/cs01> .
-<http://data.archaeology.link/data/maritimethesaurus/2505> <http://www.w3.org/2004/02/skos/core#note> "This is a Concept of NAVIS I or NAVIS II."@en .
-<http://data.archaeology.link/data/maritimethesaurus/2505> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gepaddelt und gesegelt"@de .
-<http://data.archaeology.link/data/maritimethesaurus/2505> <http://www.w3.org/2004/02/skos/core#prefLabel> "Paddled and sailed"@en .
-<http://data.archaeology.link/data/maritimethesaurus/2505> <http://www.w3.org/2004/02/skos/core#prefLabel> "Padlet og sejlet"@dk .
-<http://data.archaeology.link/data/maritimethesaurus/2505> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gepeddeld en gezeild"@nl .
-<http://data.archaeology.link/data/maritimethesaurus/2505> <http://www.w3.org/2004/02/skos/core#prefLabel> "À pagaye et à voile"@fr .
-<http://data.archaeology.link/data/maritimethesaurus/2505> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pagaia e a vela"@it .
-<http://data.archaeology.link/data/maritimethesaurus/2505> <http://www.w3.org/2004/02/skos/core#prefLabel> "a canalete y a vela"@es .
-<http://data.archaeology.link/data/maritimethesaurus/2505> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wiosłowanie z ręki i żeglowanie"@pl .
-<http://data.archaeology.link/data/maritimethesaurus/2505> <http://www.w3.org/2004/02/skos/core#prefLabel> "Κωπήλατο (ταρσοπλοϊα)  και Ιστιοφόρο"@gr .
-<http://data.archaeology.link/data/maritimethesaurus/2505> <http://www.w3.org/2004/02/skos/core#prefLabel> "דיווש ומושט"@he .
-<http://data.archaeology.link/data/maritimethesaurus/2505> <http://www.w3.org/ns/prov#wasAttributedTo> <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> .
-<http://data.archaeology.link/data/maritimethesaurus/2505> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.wikidata.org/entity/Q115264680> .
-<http://data.archaeology.link/data/maritimethesaurus/2505> <http://www.w3.org/ns/prov#wasGeneratedBy> <http://data.archaeology.link/data/maritimethesaurus/activity_2505> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://creativecommons.org/ns#> .
+@prefix ns2: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/maritimethesaurus/2505> a rdfs:Class,
+        skos:Concept ;
+    rdfs:label "Gepaddelt und gesegelt"@de,
+        "Padlet og sejlet"@dk,
+        "Paddled and sailed"@en,
+        "a canalete y a vela"@es,
+        "À pagaye et à voile"@fr,
+        "Κωπήλατο (ταρσοπλοϊα)  και Ιστιοφόρο"@gr,
+        "דיווש ומושט"@he,
+        "A pagaia e a vela"@it,
+        "Gepeddeld en gezeild"@nl,
+        "Wiosłowanie z ręki i żeglowanie"@pl ;
+    ns2:identifier_db "2230" ;
+    ns2:origin_description "tblPropulsion" ;
+    ns1:attributionName "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des LEIZA" ;
+    ns1:attributionURL <http://www.wikidata.org/entity/Q115264627> ;
+    ns1:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    dcterms:identifier <http://data.archaeology.link/data/maritimethesaurus/> ;
+    dcterms:issued "2023-03-22T11:43:34.237655+00:00"^^xsd:dateTime ;
+    dcterms:publisher <http://www.wikidata.org/entity/Q115264627> ;
+    skos:broader <http://data.archaeology.link/data/maritimethesaurus/1003> ;
+    skos:inScheme <http://data.archaeology.link/data/maritimethesaurus/cs01> ;
+    skos:note "This is a parent Concept of NAVIS I or NAVIS II and now NAVISone."@en ;
+    skos:prefLabel "Gepaddelt und gesegelt"@de,
+        "Padlet og sejlet"@dk,
+        "Paddled and sailed"@en,
+        "a canalete y a vela"@es,
+        "À pagaye et à voile"@fr,
+        "Κωπήλατο (ταρσοπλοϊα)  και Ιστιοφόρο"@gr,
+        "דיווש ומושט"@he,
+        "A pagaia e a vela"@it,
+        "Gepeddeld en gezeild"@nl,
+        "Wiosłowanie z ręki i żeglowanie"@pl ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q115264680> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/maritimethesaurus/activity_2505> .
+

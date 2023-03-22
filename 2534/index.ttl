@@ -1,33 +1,45 @@
-<http://data.archaeology.link/data/maritimethesaurus/2534> <http://creativecommons.org/ns#attributionName> "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des RGZM" .
-<http://data.archaeology.link/data/maritimethesaurus/2534> <http://creativecommons.org/ns#attributionURL> <http://www.wikidata.org/entity/Q115264627> .
-<http://data.archaeology.link/data/maritimethesaurus/2534> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by-sa/4.0/> .
-<http://data.archaeology.link/data/maritimethesaurus/2534> <http://purl.org/dc/terms/identifier> <http://data.archaeology.link/data/maritimethesaurus/> .
-<http://data.archaeology.link/data/maritimethesaurus/2534> <http://purl.org/dc/terms/issued> "2022-11-18T13:14:49.028431+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-<http://data.archaeology.link/data/maritimethesaurus/2534> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q115264627> .
-<http://data.archaeology.link/data/maritimethesaurus/2534> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://data.archaeology.link/data/maritimethesaurus/2534> <http://www.w3.org/2000/01/rdf-schema#label> "Achtersteven"@de .
-<http://data.archaeology.link/data/maritimethesaurus/2534> <http://www.w3.org/2000/01/rdf-schema#label> "Sternpost"@en .
-<http://data.archaeology.link/data/maritimethesaurus/2534> <http://www.w3.org/2000/01/rdf-schema#label> "Agterstævn"@dk .
-<http://data.archaeology.link/data/maritimethesaurus/2534> <http://www.w3.org/2000/01/rdf-schema#label> "Achtersteven"@nl .
-<http://data.archaeology.link/data/maritimethesaurus/2534> <http://www.w3.org/2000/01/rdf-schema#label> "Étambot"@fr .
-<http://data.archaeology.link/data/maritimethesaurus/2534> <http://www.w3.org/2000/01/rdf-schema#label> "Dritto/Ruota di poppa"@it .
-<http://data.archaeology.link/data/maritimethesaurus/2534> <http://www.w3.org/2000/01/rdf-schema#label> "codaste popel"@es .
-<http://data.archaeology.link/data/maritimethesaurus/2534> <http://www.w3.org/2000/01/rdf-schema#label> "Tylnica"@pl .
-<http://data.archaeology.link/data/maritimethesaurus/2534> <http://www.w3.org/2000/01/rdf-schema#label> "Ποδόστημα"@gr .
-<http://data.archaeology.link/data/maritimethesaurus/2534> <http://www.w3.org/2000/01/rdf-schema#label> "מזוזה - ירכתים"@he .
-<http://data.archaeology.link/data/maritimethesaurus/2534> <http://www.w3.org/2004/02/skos/core#broader> <http://data.archaeology.link/data/maritimethesaurus/1006> .
-<http://data.archaeology.link/data/maritimethesaurus/2534> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.archaeology.link/data/maritimethesaurus/cs01> .
-<http://data.archaeology.link/data/maritimethesaurus/2534> <http://www.w3.org/2004/02/skos/core#note> "This is a Concept of NAVIS I or NAVIS II."@en .
-<http://data.archaeology.link/data/maritimethesaurus/2534> <http://www.w3.org/2004/02/skos/core#prefLabel> "Achtersteven"@de .
-<http://data.archaeology.link/data/maritimethesaurus/2534> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sternpost"@en .
-<http://data.archaeology.link/data/maritimethesaurus/2534> <http://www.w3.org/2004/02/skos/core#prefLabel> "Agterstævn"@dk .
-<http://data.archaeology.link/data/maritimethesaurus/2534> <http://www.w3.org/2004/02/skos/core#prefLabel> "Achtersteven"@nl .
-<http://data.archaeology.link/data/maritimethesaurus/2534> <http://www.w3.org/2004/02/skos/core#prefLabel> "Étambot"@fr .
-<http://data.archaeology.link/data/maritimethesaurus/2534> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dritto/Ruota di poppa"@it .
-<http://data.archaeology.link/data/maritimethesaurus/2534> <http://www.w3.org/2004/02/skos/core#prefLabel> "codaste popel"@es .
-<http://data.archaeology.link/data/maritimethesaurus/2534> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tylnica"@pl .
-<http://data.archaeology.link/data/maritimethesaurus/2534> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ποδόστημα"@gr .
-<http://data.archaeology.link/data/maritimethesaurus/2534> <http://www.w3.org/2004/02/skos/core#prefLabel> "מזוזה - ירכתים"@he .
-<http://data.archaeology.link/data/maritimethesaurus/2534> <http://www.w3.org/ns/prov#wasAttributedTo> <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> .
-<http://data.archaeology.link/data/maritimethesaurus/2534> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.wikidata.org/entity/Q115264680> .
-<http://data.archaeology.link/data/maritimethesaurus/2534> <http://www.w3.org/ns/prov#wasGeneratedBy> <http://data.archaeology.link/data/maritimethesaurus/activity_2534> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix ns2: <http://creativecommons.org/ns#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/maritimethesaurus/2534> a rdfs:Class,
+        skos:Concept ;
+    rdfs:label "Achtersteven"@de,
+        "Agterstævn"@dk,
+        "Sternpost"@en,
+        "codaste popel"@es,
+        "Étambot"@fr,
+        "Ποδόστημα"@gr,
+        "מזוזה - ירכתים"@he,
+        "Dritto/Ruota di poppa"@it,
+        "Achtersteven"@nl,
+        "Tylnica"@pl ;
+    ns1:identifier_db "2411" ;
+    ns1:origin_description "tblDictionaryHULL" ;
+    ns2:attributionName "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des LEIZA" ;
+    ns2:attributionURL <http://www.wikidata.org/entity/Q115264627> ;
+    ns2:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    dcterms:identifier <http://data.archaeology.link/data/maritimethesaurus/> ;
+    dcterms:issued "2023-03-22T11:43:34.240647+00:00"^^xsd:dateTime ;
+    dcterms:publisher <http://www.wikidata.org/entity/Q115264627> ;
+    skos:broader <http://data.archaeology.link/data/maritimethesaurus/1006> ;
+    skos:inScheme <http://data.archaeology.link/data/maritimethesaurus/cs01> ;
+    skos:note "This is a parent Concept of NAVIS I or NAVIS II and now NAVISone."@en ;
+    skos:prefLabel "Achtersteven"@de,
+        "Agterstævn"@dk,
+        "Sternpost"@en,
+        "codaste popel"@es,
+        "Étambot"@fr,
+        "Ποδόστημα"@gr,
+        "מזוזה - ירכתים"@he,
+        "Dritto/Ruota di poppa"@it,
+        "Achtersteven"@nl,
+        "Tylnica"@pl ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q115264680> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/maritimethesaurus/activity_2534> .
+

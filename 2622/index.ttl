@@ -1,33 +1,45 @@
-<http://data.archaeology.link/data/maritimethesaurus/2622> <http://creativecommons.org/ns#attributionName> "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des RGZM" .
-<http://data.archaeology.link/data/maritimethesaurus/2622> <http://creativecommons.org/ns#attributionURL> <http://www.wikidata.org/entity/Q115264627> .
-<http://data.archaeology.link/data/maritimethesaurus/2622> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by-sa/4.0/> .
-<http://data.archaeology.link/data/maritimethesaurus/2622> <http://purl.org/dc/terms/identifier> <http://data.archaeology.link/data/maritimethesaurus/> .
-<http://data.archaeology.link/data/maritimethesaurus/2622> <http://purl.org/dc/terms/issued> "2022-11-18T13:14:49.040432+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-<http://data.archaeology.link/data/maritimethesaurus/2622> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q115264627> .
-<http://data.archaeology.link/data/maritimethesaurus/2622> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://data.archaeology.link/data/maritimethesaurus/2622> <http://www.w3.org/2000/01/rdf-schema#label> "Keipe"@de .
-<http://data.archaeology.link/data/maritimethesaurus/2622> <http://www.w3.org/2000/01/rdf-schema#label> "Rowlock"@en .
-<http://data.archaeology.link/data/maritimethesaurus/2622> <http://www.w3.org/2000/01/rdf-schema#label> "Kejpe"@dk .
-<http://data.archaeology.link/data/maritimethesaurus/2622> <http://www.w3.org/2000/01/rdf-schema#label> "Roeidol"@nl .
-<http://data.archaeology.link/data/maritimethesaurus/2622> <http://www.w3.org/2000/01/rdf-schema#label> "-Dame De Nage"@fr .
-<http://data.archaeology.link/data/maritimethesaurus/2622> <http://www.w3.org/2000/01/rdf-schema#label> "Scalmo"@it .
-<http://data.archaeology.link/data/maritimethesaurus/2622> <http://www.w3.org/2000/01/rdf-schema#label> "chumacera de remo"@es .
-<http://data.archaeology.link/data/maritimethesaurus/2622> <http://www.w3.org/2000/01/rdf-schema#label> "Dulka"@pl .
-<http://data.archaeology.link/data/maritimethesaurus/2622> <http://www.w3.org/2000/01/rdf-schema#label> "Στήριγξ, Φουρκαδέλα, Σκαλμός"@gr .
-<http://data.archaeology.link/data/maritimethesaurus/2622> <http://www.w3.org/2000/01/rdf-schema#label> "מלגז"@he .
-<http://data.archaeology.link/data/maritimethesaurus/2622> <http://www.w3.org/2004/02/skos/core#broader> <http://data.archaeology.link/data/maritimethesaurus/1012> .
-<http://data.archaeology.link/data/maritimethesaurus/2622> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.archaeology.link/data/maritimethesaurus/cs01> .
-<http://data.archaeology.link/data/maritimethesaurus/2622> <http://www.w3.org/2004/02/skos/core#note> "This is a Concept of NAVIS I or NAVIS II."@en .
-<http://data.archaeology.link/data/maritimethesaurus/2622> <http://www.w3.org/2004/02/skos/core#prefLabel> "Keipe"@de .
-<http://data.archaeology.link/data/maritimethesaurus/2622> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rowlock"@en .
-<http://data.archaeology.link/data/maritimethesaurus/2622> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kejpe"@dk .
-<http://data.archaeology.link/data/maritimethesaurus/2622> <http://www.w3.org/2004/02/skos/core#prefLabel> "Roeidol"@nl .
-<http://data.archaeology.link/data/maritimethesaurus/2622> <http://www.w3.org/2004/02/skos/core#prefLabel> "-Dame De Nage"@fr .
-<http://data.archaeology.link/data/maritimethesaurus/2622> <http://www.w3.org/2004/02/skos/core#prefLabel> "Scalmo"@it .
-<http://data.archaeology.link/data/maritimethesaurus/2622> <http://www.w3.org/2004/02/skos/core#prefLabel> "chumacera de remo"@es .
-<http://data.archaeology.link/data/maritimethesaurus/2622> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dulka"@pl .
-<http://data.archaeology.link/data/maritimethesaurus/2622> <http://www.w3.org/2004/02/skos/core#prefLabel> "Στήριγξ, Φουρκαδέλα, Σκαλμός"@gr .
-<http://data.archaeology.link/data/maritimethesaurus/2622> <http://www.w3.org/2004/02/skos/core#prefLabel> "מלגז"@he .
-<http://data.archaeology.link/data/maritimethesaurus/2622> <http://www.w3.org/ns/prov#wasAttributedTo> <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> .
-<http://data.archaeology.link/data/maritimethesaurus/2622> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.wikidata.org/entity/Q115264680> .
-<http://data.archaeology.link/data/maritimethesaurus/2622> <http://www.w3.org/ns/prov#wasGeneratedBy> <http://data.archaeology.link/data/maritimethesaurus/activity_2622> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix ns2: <http://creativecommons.org/ns#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/maritimethesaurus/2622> a rdfs:Class,
+        skos:Concept ;
+    rdfs:label "Keipe"@de,
+        "Kejpe"@dk,
+        "Rowlock"@en,
+        "chumacera de remo"@es,
+        "-Dame De Nage"@fr,
+        "Στήριγξ, Φουρκαδέλα, Σκαλμός"@gr,
+        "מלגז"@he,
+        "Scalmo"@it,
+        "Roeidol"@nl,
+        "Dulka"@pl ;
+    ns1:identifier_db "2527" ;
+    ns1:origin_description "tblDictionaryROWINGANDPADDLING" ;
+    ns2:attributionName "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des LEIZA" ;
+    ns2:attributionURL <http://www.wikidata.org/entity/Q115264627> ;
+    ns2:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    dcterms:identifier <http://data.archaeology.link/data/maritimethesaurus/> ;
+    dcterms:issued "2023-03-22T11:43:34.257687+00:00"^^xsd:dateTime ;
+    dcterms:publisher <http://www.wikidata.org/entity/Q115264627> ;
+    skos:broader <http://data.archaeology.link/data/maritimethesaurus/1012> ;
+    skos:inScheme <http://data.archaeology.link/data/maritimethesaurus/cs01> ;
+    skos:note "This is a parent Concept of NAVIS I or NAVIS II and now NAVISone."@en ;
+    skos:prefLabel "Keipe"@de,
+        "Kejpe"@dk,
+        "Rowlock"@en,
+        "chumacera de remo"@es,
+        "-Dame De Nage"@fr,
+        "Στήριγξ, Φουρκαδέλα, Σκαλμός"@gr,
+        "מלגז"@he,
+        "Scalmo"@it,
+        "Roeidol"@nl,
+        "Dulka"@pl ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q115264680> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/maritimethesaurus/activity_2622> .
+

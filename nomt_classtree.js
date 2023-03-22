@@ -97,7 +97,8 @@ var tree={
           "from": {
             "http://www.w3.org/2004/02/skos/core#inScheme": {
               "instancecount": 0,
-              "http://www.w3.org/2004/02/skos/core#Concept": 231
+              "http://www.w3.org/2004/02/skos/core#Concept": 231,
+              "http://www.w3.org/2000/01/rdf-schema#Class": 215
             },
             "http://www.w3.org/2004/02/skos/core#topConceptOf": {
               "instancecount": 0,
@@ -1731,6 +1732,12 @@ var tree={
         "text": "Concept (skos:Concept) [231]",
         "data": {
           "to": {
+            "http://archaeology.link/ontology#identifier_db": {
+              "instancecount": 1
+            },
+            "http://archaeology.link/ontology#origin_description": {
+              "instancecount": 1
+            },
             "http://creativecommons.org/ns#attributionName": {
               "instancecount": 1
             },
@@ -1750,10 +1757,10 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 1
+              "instancecount": 2
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 2
+              "instancecount": 8
             },
             "http://www.w3.org/2004/02/skos/core#broader": {
               "instancecount": 1,
@@ -1767,7 +1774,7 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2004/02/skos/core#prefLabel": {
-              "instancecount": 2
+              "instancecount": 8
             },
             "http://www.w3.org/ns/prov#wasAttributedTo": {
               "instancecount": 1
@@ -1781,13 +1788,17 @@ var tree={
             }
           },
           "from": {
+            "http://www.w3.org/2000/01/rdf-schema#subClassOf": {
+              "instancecount": 0,
+              "http://www.w3.org/2004/02/skos/core#Concept": 1
+            },
             "http://www.w3.org/2004/02/skos/core#narrower": {
               "instancecount": 0,
               "http://www.w3.org/2004/02/skos/core#Concept": 1
             }
           }
         },
-        "instancecount": 17
+        "instancecount": 32
       },
       {
         "id": "http://data.archaeology.link/data/maritimethesaurus/activity_1001",
@@ -3429,7 +3440,8 @@ var tree={
           "from": {
             "http://www.w3.org/ns/prov#wasGeneratedBy": {
               "instancecount": 0,
-              "http://www.w3.org/2004/02/skos/core#Concept": 1
+              "http://www.w3.org/2004/02/skos/core#Concept": 1,
+              "http://www.w3.org/2000/01/rdf-schema#Class": 1
             }
           }
         },
