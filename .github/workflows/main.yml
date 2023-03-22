@@ -23,6 +23,7 @@ jobs:
         prefixns: http://data.archaeology.link/data/maritimethesaurus/
         prefixnsshort: nomt
         indexpages: true
-        createcollections: false
+        createcollections: true
         preferredlang: en
         ghpages: true
+        templatedir: https://github.com/ogham-lod/sparqlunicornGoesGIS-ontdoc-template/archive/refs/tags/v0.1.zip
