@@ -95,6 +95,10 @@ var tree={
             }
           },
           "from": {
+            "http://www.w3.org/2000/01/rdf-schema#member": {
+              "instancecount": 0,
+              "http://www.w3.org/2004/02/skos/core#Collection": 1
+            },
             "http://www.w3.org/2004/02/skos/core#inScheme": {
               "instancecount": 0,
               "http://www.w3.org/2004/02/skos/core#Concept": 231,
@@ -1732,12 +1736,6 @@ var tree={
         "text": "Concept (skos:Concept) [231]",
         "data": {
           "to": {
-            "http://archaeology.link/ontology#identifier_db": {
-              "instancecount": 1
-            },
-            "http://archaeology.link/ontology#origin_description": {
-              "instancecount": 1
-            },
             "http://creativecommons.org/ns#attributionName": {
               "instancecount": 1
             },
@@ -1757,24 +1755,34 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 2
+              "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 8
+              "instancecount": 2
             },
-            "http://www.w3.org/2004/02/skos/core#broader": {
-              "instancecount": 1,
-              "http://www.w3.org/2004/02/skos/core#Concept": 1
+            "http://www.w3.org/2000/01/rdf-schema#subClassOf": {
+              "instancecount": 4,
+              "http://www.w3.org/2004/02/skos/core#Concept": 4,
+              "http://www.w3.org/2000/01/rdf-schema#Class": 4
             },
             "http://www.w3.org/2004/02/skos/core#inScheme": {
               "instancecount": 1,
               "http://www.w3.org/2004/02/skos/core#ConceptScheme": 1
             },
+            "http://www.w3.org/2004/02/skos/core#narrower": {
+              "instancecount": 4,
+              "http://www.w3.org/2004/02/skos/core#Concept": 4,
+              "http://www.w3.org/2000/01/rdf-schema#Class": 4
+            },
             "http://www.w3.org/2004/02/skos/core#note": {
               "instancecount": 1
             },
             "http://www.w3.org/2004/02/skos/core#prefLabel": {
-              "instancecount": 8
+              "instancecount": 2
+            },
+            "http://www.w3.org/2004/02/skos/core#topConceptOf": {
+              "instancecount": 1,
+              "http://www.w3.org/2004/02/skos/core#ConceptScheme": 1
             },
             "http://www.w3.org/ns/prov#wasAttributedTo": {
               "instancecount": 1
@@ -1788,17 +1796,22 @@ var tree={
             }
           },
           "from": {
-            "http://www.w3.org/2000/01/rdf-schema#subClassOf": {
+            "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
-              "http://www.w3.org/2004/02/skos/core#Concept": 1
+              "http://www.w3.org/2004/02/skos/core#Collection": 1
             },
-            "http://www.w3.org/2004/02/skos/core#narrower": {
+            "http://www.w3.org/2004/02/skos/core#broader": {
               "instancecount": 0,
-              "http://www.w3.org/2004/02/skos/core#Concept": 1
+              "http://www.w3.org/2004/02/skos/core#Concept": 4,
+              "http://www.w3.org/2000/01/rdf-schema#Class": 4
+            },
+            "http://www.w3.org/2004/02/skos/core#hasTopConcept": {
+              "instancecount": 0,
+              "http://www.w3.org/2004/02/skos/core#ConceptScheme": 1
             }
           }
         },
-        "instancecount": 32
+        "instancecount": 25
       },
       {
         "id": "http://data.archaeology.link/data/maritimethesaurus/activity_1001",
@@ -3438,14 +3451,67 @@ var tree={
             }
           },
           "from": {
+            "http://www.w3.org/2000/01/rdf-schema#member": {
+              "instancecount": 0,
+              "http://www.w3.org/2004/02/skos/core#Collection": 1
+            },
             "http://www.w3.org/ns/prov#wasGeneratedBy": {
               "instancecount": 0,
-              "http://www.w3.org/2004/02/skos/core#Concept": 1,
-              "http://www.w3.org/2000/01/rdf-schema#Class": 1
+              "http://www.w3.org/2004/02/skos/core#Concept": 1
             }
           }
         },
         "instancecount": 4
+      },
+      {
+        "id": "http://data.archaeology.link/data/maritimethesaurus/ConceptScheme_collection",
+        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
+        "type": "instance",
+        "text": "ConceptScheme Instances Collection (nomt:ConceptScheme_collection)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/maritimethesaurus/Concept_collection",
+        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
+        "type": "instance",
+        "text": "Concept Instances Collection (nomt:Concept_collection)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/maritimethesaurus/Activity_collection",
+        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
+        "type": "instance",
+        "text": "Activity Instances Collection (nomt:Activity_collection)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/maritimethesaurus/Class_collection",
+        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
+        "type": "instance",
+        "text": "Class Instances Collection (nomt:Class_collection)",
+        "data": {}
+      },
+      {
+        "id": "http://www.w3.org/2004/02/skos/core#Collection",
+        "parent": "#",
+        "type": "collectionclass",
+        "text": "Collection (skos:Collection) [4]",
+        "data": {
+          "to": {
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#label": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#member": {
+              "instancecount": 231,
+              "http://www.w3.org/ns/prov#Activity": 231
+            }
+          },
+          "from": {}
+        },
+        "instancecount": 233
       }
     ]
   }
