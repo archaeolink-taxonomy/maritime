@@ -26,4 +26,4 @@ jobs:
         createcollections: true
         preferredlang: en
         ghpages: true
-        templatedir: https://github.com/archaeolink-lod/unicorn-ontdoc-template-nmt/archive/refs/tags/v0.1.3.zip
+        templatedir: https://github.com/archaeolink-lod/unicorn-ontdoc-template-nmt/archive/refs/tags/v0.1.4.zip
