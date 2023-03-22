@@ -3452,7 +3452,8 @@ var tree={
             },
             "http://www.w3.org/ns/prov#wasGeneratedBy": {
               "instancecount": 0,
-              "http://www.w3.org/2004/02/skos/core#Concept": 1
+              "http://www.w3.org/2004/02/skos/core#Concept": 1,
+              "http://www.w3.org/2000/01/rdf-schema#Class": 1
             }
           }
         },
@@ -3501,7 +3502,8 @@ var tree={
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 231,
-              "http://www.w3.org/ns/prov#Activity": 231
+              "http://www.w3.org/2004/02/skos/core#Concept": 231,
+              "http://www.w3.org/2000/01/rdf-schema#Class": 215
             }
           },
           "from": {}
