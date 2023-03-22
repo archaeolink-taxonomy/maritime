@@ -143,10 +143,17 @@ table.description .container > td {
   padding: 0.2em 0.8em;
 }
 table.description .even td {
-  background: #058b8c;
+  background: #ffffff;
 }
 table.description .odd td {
-  background: #f0fcf0;
+  background: #058b8c;
+  color: white !important;
+}
+.odd a {
+  color: white !important;
+}
+.odd a:hover {
+  color: lightgray !important;
 }
 .image {
   background: white;
