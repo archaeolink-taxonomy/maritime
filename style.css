@@ -135,12 +135,20 @@ h1,
 h2 {
   color: #810;
 }
-#title {
-  text-align: center;
+#title.a {
   font-size: 36px;
   font-family: "Cairo", sans-serif !important;
   color: #058b8c !important;
   font-weight: 600;
+}
+#title.a:hover {
+  font-size: 36px;
+  font-family: "Cairo", sans-serif !important;
+  color: #058b8c !important;
+  font-weight: 600;
+}
+#header {
+  text-align: center;
 }
 body {
   background: #ffffff;
