@@ -17,12 +17,12 @@ body {
   top: -28px;
 }
 #header {
-  border-bottom: 2px solid #696;
+  border-bottom: 2px solid #058b8c;
   margin: 0 0 1.2em;
   padding: 0 0 0.3em;
 }
 #footer {
-  border-top: 2px solid #696;
+  border-top: 2px solid #058b8c;
   margin: 1.2em 0 0;
   padding: 0.3em 0 0;
 }
@@ -146,14 +146,7 @@ table.description .even td {
   background: #ffffff;
 }
 table.description .odd td {
-  background: #058b8c;
-  color: white !important;
-}
-.odd a {
-  color: white !important;
-}
-.odd a:hover {
-  color: lightgray !important;
+  background: #dcebeb;
 }
 .image {
   background: white;
