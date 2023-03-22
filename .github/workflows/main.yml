@@ -26,4 +26,4 @@ jobs:
         createcollections: true
         preferredlang: en
         ghpages: true
-        templatedir: https://github.com/ogham-lod/sparqlunicornGoesGIS-ontdoc-template/archive/refs/tags/v0.1.zip
+        templatedir: https://github.com/sparqlunicorn/sparqlunicornGoesGIS-ontdoc-template/archive/refs/tags/v1.0.zip
