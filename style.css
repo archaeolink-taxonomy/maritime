@@ -140,9 +140,17 @@ h2 {
   font-family: "Cairo", sans-serif !important;
   color: #058b8c !important;
   font-weight: 600;
+  margin-left: 10px;
+}
+#titletwo {
+  font-size: 20px;
+  font-family: "Cairo", sans-serif !important;
+  color: #058b8c !important;
+  font-weight: 300;
+  text-decoration: underline;
+  margin-left: 10px;
 }
 #header {
-  text-align: center;
 }
 body {
   background: #ffffff;
