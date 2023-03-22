@@ -1764,7 +1764,7 @@ var tree={
               "instancecount": 2
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 8
+              "instancecount": 2
             },
             "http://www.w3.org/2004/02/skos/core#broader": {
               "instancecount": 1,
@@ -1778,7 +1778,7 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2004/02/skos/core#prefLabel": {
-              "instancecount": 8
+              "instancecount": 2
             },
             "http://www.w3.org/ns/prov#wasAttributedTo": {
               "instancecount": 1
@@ -1806,7 +1806,7 @@ var tree={
             }
           }
         },
-        "instancecount": 32
+        "instancecount": 20
       },
       {
         "id": "http://data.archaeology.link/data/maritimethesaurus/activity_1001",
