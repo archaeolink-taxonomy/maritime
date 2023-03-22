@@ -22,11 +22,11 @@
     ns1:attributionURL <http://www.wikidata.org/entity/Q115264627> ;
     ns1:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
     dcterms:identifier <http://data.archaeology.link/data/maritimethesaurus/> ;
-    dcterms:issued "2023-03-22T11:43:34.248651+00:00"^^xsd:dateTime ;
+    dcterms:issued "2023-03-22T18:20:07.275442+00:00"^^xsd:dateTime ;
     dcterms:publisher <http://www.wikidata.org/entity/Q115264627> ;
     skos:broader <http://data.archaeology.link/data/maritimethesaurus/1007> ;
     skos:inScheme <http://data.archaeology.link/data/maritimethesaurus/cs01> ;
-    skos:note "This is a parent Concept of NAVIS I or NAVIS II and now NAVISone."@en ;
+    skos:note "This is a Concept of NAVIS I or NAVIS II and now NAVISone."@en ;
     skos:prefLabel "nüstergatt"@de,
         "lænsehul"@dk,
         "limber hole"@en,

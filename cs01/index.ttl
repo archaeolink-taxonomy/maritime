@@ -4,8 +4,8 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 <http://data.archaeology.link/data/maritimethesaurus/cs01> a skos:ConceptScheme ;
-    rdfs:label "Navis.one Maritime Thesaurus" ;
-    ns1:attributionName "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des RGZM" ;
+    rdfs:label "NAVISone Maritime Thesaurus" ;
+    ns1:attributionName "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des LEIZA" ;
     ns1:attributionURL <http://www.wikidata.org/entity/Q115264627> ;
     ns1:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
     dcterms:creator <http://www.wikidata.org/entity/Q66606154>,
@@ -14,7 +14,7 @@
     dcterms:identifier <http://www.wikidata.org/entity/Q115264680> ;
     dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
     dcterms:publisher <http://www.wikidata.org/entity/Q115264627> ;
-    dcterms:title "Navis.one Maritime Thesaurus" ;
+    dcterms:title "NAVISone Maritime Thesaurus" ;
     skos:hasTopConcept <http://data.archaeology.link/data/maritimethesaurus/1001>,
         <http://data.archaeology.link/data/maritimethesaurus/1002>,
         <http://data.archaeology.link/data/maritimethesaurus/1003>,
