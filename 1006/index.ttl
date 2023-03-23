@@ -21,8 +21,8 @@
     ns1:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
     dcterms:created "2022-11-18" ;
     dcterms:identifier <http://data.archaeology.link/data/maritimethesaurus/1006> ;
-    dcterms:issued "2023-03-23T11:40:52.629708+00:00"^^xsd:dateTime ;
-    dcterms:modified "2023-03-23T11:40:52.629708+00:00"^^xsd:dateTime ;
+    dcterms:issued "2023-03-23T13:25:36.602113+00:00"^^xsd:dateTime ;
+    dcterms:modified "2023-03-23T13:25:36.602113+00:00"^^xsd:dateTime ;
     dcterms:publisher <http://www.wikidata.org/entity/Q115264627> ;
     rdfs:subClassOf <http://data.archaeology.link/data/maritimethesaurus/2523>,
         <http://data.archaeology.link/data/maritimethesaurus/2524>,

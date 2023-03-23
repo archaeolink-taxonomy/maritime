@@ -43,6 +43,44 @@ var tree={
     "check_callback": true,
     "data": [
       {
+        "id": "http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript",
+        "parent": "http://www.w3.org/ns/prov#SoftwareAgent",
+        "type": "instance",
+        "text": "ImportPythonScript (nomt:ImportPythonScript)",
+        "data": {}
+      },
+      {
+        "id": "http://www.w3.org/ns/prov#SoftwareAgent",
+        "parent": "#",
+        "type": "class",
+        "text": "SoftwareAgent (prov:SoftwareAgent) [1]",
+        "data": {
+          "to": {
+            "http://purl.org/dc/terms/source": {
+              "instancecount": 2
+            },
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#seeAlso": {
+              "instancecount": 2
+            }
+          },
+          "from": {
+            "http://www.w3.org/ns/prov#wasAssociatedWith": {
+              "instancecount": 0,
+              "http://www.w3.org/ns/prov#Activity": 231
+            },
+            "http://www.w3.org/ns/prov#wasAttributedTo": {
+              "instancecount": 0,
+              "http://www.w3.org/2004/02/skos/core#Concept": 231,
+              "http://www.w3.org/2000/01/rdf-schema#Class": 215
+            }
+          }
+        },
+        "instancecount": 5
+      },
+      {
         "id": "http://data.archaeology.link/data/maritimethesaurus/cs01",
         "parent": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
         "type": "instance",
@@ -1791,7 +1829,8 @@ var tree={
               "instancecount": 10
             },
             "http://www.w3.org/ns/prov#wasAttributedTo": {
-              "instancecount": 1
+              "instancecount": 1,
+              "http://www.w3.org/ns/prov#SoftwareAgent": 1
             },
             "http://www.w3.org/ns/prov#wasDerivedFrom": {
               "instancecount": 1
@@ -3453,7 +3492,8 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/ns/prov#wasAssociatedWith": {
-              "instancecount": 1
+              "instancecount": 1,
+              "http://www.w3.org/ns/prov#SoftwareAgent": 1
             }
           },
           "from": {

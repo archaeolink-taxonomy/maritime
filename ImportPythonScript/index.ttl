@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> a prov:SoftwareAgent ;
+    dcterms:source <https://github.com/archaeolink/navisone-maritime-thesaurus>,
+        <https://github.com/archaeolink/navisone-maritime-thesaurus/blob/main/py/skos.py> ;
+    rdfs:seeAlso <https://github.com/archaeolink/navisone-maritime-thesaurus>,
+        <https://github.com/archaeolink/navisone-maritime-thesaurus/blob/main/py/skos.py> .
+
