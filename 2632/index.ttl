@@ -20,11 +20,13 @@
         "Taran"@pl ;
     ns2:identifier_db "2551" ;
     ns2:origin_description "tblDictionaryWARFARE" ;
-    ns1:attributionName "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des LEIZA" ;
+    ns1:attributionName "Arbeitsbereich Wissenschaftliche IT, Digitale Plattformen und Tools des LEIZA" ;
     ns1:attributionURL <http://www.wikidata.org/entity/Q115264627> ;
     ns1:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
-    dcterms:identifier <http://data.archaeology.link/data/maritimethesaurus/> ;
-    dcterms:issued "2023-03-23T10:45:47.329265+00:00"^^xsd:dateTime ;
+    dcterms:created "2022-11-18" ;
+    dcterms:identifier <http://data.archaeology.link/data/maritimethesaurus/2632> ;
+    dcterms:issued "2023-03-23T11:40:52.701682+00:00"^^xsd:dateTime ;
+    dcterms:modified "2023-03-23T11:40:52.701682+00:00"^^xsd:dateTime ;
     dcterms:publisher <http://www.wikidata.org/entity/Q115264627> ;
     skos:broader <http://data.archaeology.link/data/maritimethesaurus/1015> ;
     skos:inScheme <http://data.archaeology.link/data/maritimethesaurus/cs01> ;
