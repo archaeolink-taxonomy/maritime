@@ -1,6 +1,6 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ns1: <http://creativecommons.org/ns#> .
-@prefix ns2: <http://archaeology.link/ontology#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix ns2: <http://creativecommons.org/ns#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -16,11 +16,11 @@
         "ο ζωστήρας"@gr,
         "riempitivo"@it,
         "vulstuk"@nl ;
-    ns2:identifier_db "4740" ;
-    ns2:origin_description "tblWoordenboek" ;
-    ns1:attributionName "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des LEIZA" ;
-    ns1:attributionURL <http://www.wikidata.org/entity/Q115264627> ;
-    ns1:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    ns1:identifier_db "4740" ;
+    ns1:origin_description "tblWoordenboek" ;
+    ns2:attributionName "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des LEIZA" ;
+    ns2:attributionURL <http://www.wikidata.org/entity/Q115264627> ;
+    ns2:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
     dcterms:identifier <http://data.archaeology.link/data/maritimethesaurus/> ;
     dcterms:issued "2023-03-22T18:36:17.951526+00:00"^^xsd:dateTime ;
     dcterms:publisher <http://www.wikidata.org/entity/Q115264627> ;
