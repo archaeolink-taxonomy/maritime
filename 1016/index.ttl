@@ -13,16 +13,16 @@
     ns1:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
     dcterms:created "2022-11-18" ;
     dcterms:identifier <http://data.archaeology.link/data/maritimethesaurus/1016> ;
-    dcterms:issued "2023-03-23T18:10:21.293984+00:00"^^xsd:dateTime ;
-    dcterms:modified "2023-03-23T18:10:21.293984+00:00"^^xsd:dateTime ;
+    dcterms:issued "2023-03-23T15:55:16.512897+00:00"^^xsd:dateTime ;
+    dcterms:modified "2023-03-23T15:55:16.512897+00:00"^^xsd:dateTime ;
     dcterms:publisher <http://www.wikidata.org/entity/Q115264627> ;
-    rdfs:subClassOf <http://data.archaeology.link/data/maritimethesaurus/1EB740>,
-        <http://data.archaeology.link/data/maritimethesaurus/88C1CD>,
-        <http://data.archaeology.link/data/maritimethesaurus/D59DA1> ;
+    rdfs:subClassOf <http://data.archaeology.link/data/maritimethesaurus/1051B8>,
+        <http://data.archaeology.link/data/maritimethesaurus/6097B3>,
+        <http://data.archaeology.link/data/maritimethesaurus/E1F036> ;
     skos:inScheme <http://data.archaeology.link/data/maritimethesaurus/cs01> ;
-    skos:narrower <http://data.archaeology.link/data/maritimethesaurus/1EB740>,
-        <http://data.archaeology.link/data/maritimethesaurus/88C1CD>,
-        <http://data.archaeology.link/data/maritimethesaurus/D59DA1> ;
+    skos:narrower <http://data.archaeology.link/data/maritimethesaurus/1051B8>,
+        <http://data.archaeology.link/data/maritimethesaurus/6097B3>,
+        <http://data.archaeology.link/data/maritimethesaurus/E1F036> ;
     skos:note "This is a parent Concept of NAVIS I or NAVIS II and now NAVISone."@en ;
     skos:prefLabel "[Oberflächenbehandlung]"@de,
         "[surface treatment]"@en ;

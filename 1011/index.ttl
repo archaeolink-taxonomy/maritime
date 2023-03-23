@@ -13,24 +13,24 @@
     ns1:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
     dcterms:created "2022-11-18" ;
     dcterms:identifier <http://data.archaeology.link/data/maritimethesaurus/1011> ;
-    dcterms:issued "2023-03-23T18:10:21.293984+00:00"^^xsd:dateTime ;
-    dcterms:modified "2023-03-23T18:10:21.293984+00:00"^^xsd:dateTime ;
+    dcterms:issued "2023-03-23T15:55:16.511894+00:00"^^xsd:dateTime ;
+    dcterms:modified "2023-03-23T15:55:16.511894+00:00"^^xsd:dateTime ;
     dcterms:publisher <http://www.wikidata.org/entity/Q115264627> ;
-    rdfs:subClassOf <http://data.archaeology.link/data/maritimethesaurus/02A954>,
-        <http://data.archaeology.link/data/maritimethesaurus/2D4862>,
-        <http://data.archaeology.link/data/maritimethesaurus/3A4334>,
-        <http://data.archaeology.link/data/maritimethesaurus/5F47CB>,
-        <http://data.archaeology.link/data/maritimethesaurus/737BE7>,
-        <http://data.archaeology.link/data/maritimethesaurus/807A0F>,
-        <http://data.archaeology.link/data/maritimethesaurus/FBE946> ;
+    rdfs:subClassOf <http://data.archaeology.link/data/maritimethesaurus/01E22C>,
+        <http://data.archaeology.link/data/maritimethesaurus/1C02BA>,
+        <http://data.archaeology.link/data/maritimethesaurus/287711>,
+        <http://data.archaeology.link/data/maritimethesaurus/33BF0F>,
+        <http://data.archaeology.link/data/maritimethesaurus/5FA6B8>,
+        <http://data.archaeology.link/data/maritimethesaurus/E865A5>,
+        <http://data.archaeology.link/data/maritimethesaurus/FE4152> ;
     skos:inScheme <http://data.archaeology.link/data/maritimethesaurus/cs01> ;
-    skos:narrower <http://data.archaeology.link/data/maritimethesaurus/02A954>,
-        <http://data.archaeology.link/data/maritimethesaurus/2D4862>,
-        <http://data.archaeology.link/data/maritimethesaurus/3A4334>,
-        <http://data.archaeology.link/data/maritimethesaurus/5F47CB>,
-        <http://data.archaeology.link/data/maritimethesaurus/737BE7>,
-        <http://data.archaeology.link/data/maritimethesaurus/807A0F>,
-        <http://data.archaeology.link/data/maritimethesaurus/FBE946> ;
+    skos:narrower <http://data.archaeology.link/data/maritimethesaurus/01E22C>,
+        <http://data.archaeology.link/data/maritimethesaurus/1C02BA>,
+        <http://data.archaeology.link/data/maritimethesaurus/287711>,
+        <http://data.archaeology.link/data/maritimethesaurus/33BF0F>,
+        <http://data.archaeology.link/data/maritimethesaurus/5FA6B8>,
+        <http://data.archaeology.link/data/maritimethesaurus/E865A5>,
+        <http://data.archaeology.link/data/maritimethesaurus/FE4152> ;
     skos:note "This is a parent Concept of NAVIS I or NAVIS II and now NAVISone."@en ;
     skos:prefLabel "[Ruderanlage]"@de,
         "[steering gear]"@en ;
