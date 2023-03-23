@@ -1,6 +1,14 @@
 <html about="http://data.archaeology.link/data/maritimethesaurus/2611">
   <head>
-    <title>Rudder</title>
+    <script>
+      if (window.location.href.includes("index.html")) {
+        document.write("<title>Rudder</title>");
+      } else {
+        document.write(
+          "<title>Index Page for the NAVISone Maritime Thesaurus on archaeology.link</title>"
+        );
+      }
+    </script>
     <link
       rel="stylesheet"
       type="text/css"

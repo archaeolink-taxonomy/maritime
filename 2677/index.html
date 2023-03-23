@@ -1,6 +1,14 @@
 <html about="http://data.archaeology.link/data/maritimethesaurus/2677">
   <head>
-    <title>bolt</title>
+    <script>
+      if (window.location.href.includes("index.html")) {
+        document.write("<title>bolt</title>");
+      } else {
+        document.write(
+          "<title>Index Page for the NAVISone Maritime Thesaurus on archaeology.link</title>"
+        );
+      }
+    </script>
     <link
       rel="stylesheet"
       type="text/css"

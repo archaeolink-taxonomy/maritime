@@ -1,6 +1,14 @@
 <html about="http://data.archaeology.link/data/maritimethesaurus/1002">
   <head>
-    <title>operating environment</title>
+    <script>
+      if (window.location.href.includes("index.html")) {
+        document.write("<title>operating environment</title>");
+      } else {
+        document.write(
+          "<title>Index Page for the NAVISone Maritime Thesaurus on archaeology.link</title>"
+        );
+      }
+    </script>
     <link
       rel="stylesheet"
       type="text/css"
