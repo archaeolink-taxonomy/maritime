@@ -1821,7 +1821,7 @@ var tree={
               "instancecount": 2
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 10
+              "instancecount": 2
             },
             "http://www.w3.org/2004/02/skos/core#broader": {
               "instancecount": 1,
@@ -1835,7 +1835,7 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2004/02/skos/core#prefLabel": {
-              "instancecount": 10
+              "instancecount": 2
             },
             "http://www.w3.org/ns/prov#wasAttributedTo": {
               "instancecount": 1,
@@ -1865,7 +1865,7 @@ var tree={
             }
           }
         },
-        "instancecount": 38
+        "instancecount": 22
       },
       {
         "id": "http://data.archaeology.link/data/maritimethesaurus/activity_1001",
@@ -3508,7 +3508,8 @@ var tree={
           "from": {
             "http://www.w3.org/ns/prov#wasGeneratedBy": {
               "instancecount": 0,
-              "http://www.w3.org/2004/02/skos/core#Concept": 1
+              "http://www.w3.org/2004/02/skos/core#Concept": 1,
+              "http://www.w3.org/2000/01/rdf-schema#Class": 1
             }
           }
         },
