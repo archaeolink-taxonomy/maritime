@@ -23,9 +23,9 @@ jobs:
         prefixns: http://data.archaeology.link/data/maritimethesaurus/
         prefixnsshort: nomt
         indexpages: true
-        createcollections: true
+        createcollections: false
         preferredlang: en
         ghpages: true
         logourl: https://raw.githubusercontent.com/archaeolink-lod/unicorn-ontdoc-template-nmt/main/icons/al_circle_icon.png
-        templatedir: https://github.com/archaeolink-lod/unicorn-ontdoc-template-nmt/archive/refs/tags/v0.1.17.zip
+        templatedir: https://github.com/archaeolink-lod/unicorn-ontdoc-template-nmt/archive/refs/tags/v0.1.18.zip
       
