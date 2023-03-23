@@ -6,76 +6,60 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.archaeology.link/data/maritimethesaurus/1007> a skos:Concept ;
-    rdfs:label "Indvendig konstruktion"@de,
-        "Indvendig konstruktion"@dk,
-        "Internal construction"@en,
-        "construcción interna"@es,
-        "Construction interne"@fr,
-        "Εσωτερική Κατασκευή"@gr,
-        "מבנה פנימי"@he,
-        "Costruzione interna"@it,
-        "Interne constructie"@nl,
-        "Elementy konstrukcyjne"@pl ;
+    rdfs:label "<Innenkonstruktion>"@de,
+        "Internal construction"@en ;
     ns1:attributionName "Arbeitsbereich Wissenschaftliche IT, Digitale Plattformen und Tools des LEIZA" ;
     ns1:attributionURL <http://www.wikidata.org/entity/Q115264627> ;
     ns1:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
     dcterms:created "2022-11-18" ;
     dcterms:identifier <http://data.archaeology.link/data/maritimethesaurus/1007> ;
-    dcterms:issued "2023-03-23T13:40:30.338145+00:00"^^xsd:dateTime ;
-    dcterms:modified "2023-03-23T13:40:30.338145+00:00"^^xsd:dateTime ;
+    dcterms:issued "2023-03-23T15:32:39.617503+00:00"^^xsd:dateTime ;
+    dcterms:modified "2023-03-23T15:32:39.617503+00:00"^^xsd:dateTime ;
     dcterms:publisher <http://www.wikidata.org/entity/Q115264627> ;
-    rdfs:subClassOf <http://data.archaeology.link/data/maritimethesaurus/2550>,
-        <http://data.archaeology.link/data/maritimethesaurus/2551>,
-        <http://data.archaeology.link/data/maritimethesaurus/2552>,
-        <http://data.archaeology.link/data/maritimethesaurus/2553>,
-        <http://data.archaeology.link/data/maritimethesaurus/2554>,
-        <http://data.archaeology.link/data/maritimethesaurus/2555>,
-        <http://data.archaeology.link/data/maritimethesaurus/2556>,
-        <http://data.archaeology.link/data/maritimethesaurus/2557>,
-        <http://data.archaeology.link/data/maritimethesaurus/2558>,
-        <http://data.archaeology.link/data/maritimethesaurus/2559>,
-        <http://data.archaeology.link/data/maritimethesaurus/2560>,
-        <http://data.archaeology.link/data/maritimethesaurus/2561>,
-        <http://data.archaeology.link/data/maritimethesaurus/2562>,
-        <http://data.archaeology.link/data/maritimethesaurus/2563>,
-        <http://data.archaeology.link/data/maritimethesaurus/2564>,
-        <http://data.archaeology.link/data/maritimethesaurus/2565>,
-        <http://data.archaeology.link/data/maritimethesaurus/2566>,
-        <http://data.archaeology.link/data/maritimethesaurus/2567>,
-        <http://data.archaeology.link/data/maritimethesaurus/2698>,
-        <http://data.archaeology.link/data/maritimethesaurus/2699> ;
+    rdfs:subClassOf <http://data.archaeology.link/data/maritimethesaurus/067FCD>,
+        <http://data.archaeology.link/data/maritimethesaurus/08123C>,
+        <http://data.archaeology.link/data/maritimethesaurus/18D039>,
+        <http://data.archaeology.link/data/maritimethesaurus/4F3B14>,
+        <http://data.archaeology.link/data/maritimethesaurus/622C3E>,
+        <http://data.archaeology.link/data/maritimethesaurus/7F509F>,
+        <http://data.archaeology.link/data/maritimethesaurus/8D3E7D>,
+        <http://data.archaeology.link/data/maritimethesaurus/97C594>,
+        <http://data.archaeology.link/data/maritimethesaurus/9E1A00>,
+        <http://data.archaeology.link/data/maritimethesaurus/A2C3C4>,
+        <http://data.archaeology.link/data/maritimethesaurus/AC499C>,
+        <http://data.archaeology.link/data/maritimethesaurus/AF97BA>,
+        <http://data.archaeology.link/data/maritimethesaurus/B876C5>,
+        <http://data.archaeology.link/data/maritimethesaurus/BA2F0A>,
+        <http://data.archaeology.link/data/maritimethesaurus/C747D7>,
+        <http://data.archaeology.link/data/maritimethesaurus/C873D9>,
+        <http://data.archaeology.link/data/maritimethesaurus/C8E484>,
+        <http://data.archaeology.link/data/maritimethesaurus/D76D74>,
+        <http://data.archaeology.link/data/maritimethesaurus/EF438D>,
+        <http://data.archaeology.link/data/maritimethesaurus/F95C88> ;
     skos:inScheme <http://data.archaeology.link/data/maritimethesaurus/cs01> ;
-    skos:narrower <http://data.archaeology.link/data/maritimethesaurus/2550>,
-        <http://data.archaeology.link/data/maritimethesaurus/2551>,
-        <http://data.archaeology.link/data/maritimethesaurus/2552>,
-        <http://data.archaeology.link/data/maritimethesaurus/2553>,
-        <http://data.archaeology.link/data/maritimethesaurus/2554>,
-        <http://data.archaeology.link/data/maritimethesaurus/2555>,
-        <http://data.archaeology.link/data/maritimethesaurus/2556>,
-        <http://data.archaeology.link/data/maritimethesaurus/2557>,
-        <http://data.archaeology.link/data/maritimethesaurus/2558>,
-        <http://data.archaeology.link/data/maritimethesaurus/2559>,
-        <http://data.archaeology.link/data/maritimethesaurus/2560>,
-        <http://data.archaeology.link/data/maritimethesaurus/2561>,
-        <http://data.archaeology.link/data/maritimethesaurus/2562>,
-        <http://data.archaeology.link/data/maritimethesaurus/2563>,
-        <http://data.archaeology.link/data/maritimethesaurus/2564>,
-        <http://data.archaeology.link/data/maritimethesaurus/2565>,
-        <http://data.archaeology.link/data/maritimethesaurus/2566>,
-        <http://data.archaeology.link/data/maritimethesaurus/2567>,
-        <http://data.archaeology.link/data/maritimethesaurus/2698>,
-        <http://data.archaeology.link/data/maritimethesaurus/2699> ;
+    skos:narrower <http://data.archaeology.link/data/maritimethesaurus/067FCD>,
+        <http://data.archaeology.link/data/maritimethesaurus/08123C>,
+        <http://data.archaeology.link/data/maritimethesaurus/18D039>,
+        <http://data.archaeology.link/data/maritimethesaurus/4F3B14>,
+        <http://data.archaeology.link/data/maritimethesaurus/622C3E>,
+        <http://data.archaeology.link/data/maritimethesaurus/7F509F>,
+        <http://data.archaeology.link/data/maritimethesaurus/8D3E7D>,
+        <http://data.archaeology.link/data/maritimethesaurus/97C594>,
+        <http://data.archaeology.link/data/maritimethesaurus/9E1A00>,
+        <http://data.archaeology.link/data/maritimethesaurus/A2C3C4>,
+        <http://data.archaeology.link/data/maritimethesaurus/AC499C>,
+        <http://data.archaeology.link/data/maritimethesaurus/AF97BA>,
+        <http://data.archaeology.link/data/maritimethesaurus/B876C5>,
+        <http://data.archaeology.link/data/maritimethesaurus/BA2F0A>,
+        <http://data.archaeology.link/data/maritimethesaurus/C747D7>,
+        <http://data.archaeology.link/data/maritimethesaurus/C873D9>,
+        <http://data.archaeology.link/data/maritimethesaurus/C8E484>,
+        <http://data.archaeology.link/data/maritimethesaurus/D76D74>,
+        <http://data.archaeology.link/data/maritimethesaurus/EF438D>,
+        <http://data.archaeology.link/data/maritimethesaurus/F95C88> ;
     skos:note "This is a parent Concept of NAVIS I or NAVIS II and now NAVISone."@en ;
-    skos:prefLabel "Indvendig konstruktion"@de,
-        "Indvendig konstruktion"@dk,
-        "Internal construction"@en,
-        "construcción interna"@es,
-        "Construction interne"@fr,
-        "Εσωτερική Κατασκευή"@gr,
-        "מבנה פנימי"@he,
-        "Costruzione interna"@it,
-        "Interne constructie"@nl,
-        "Elementy konstrukcyjne"@pl ;
+    skos:prefLabel "<Innenkonstruktion>"@de,
+        "Internal construction"@en ;
     skos:topConceptOf <http://data.archaeology.link/data/maritimethesaurus/cs01> ;
     prov:wasAttributedTo <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> ;
     prov:wasDerivedFrom <http://www.wikidata.org/entity/Q115264680> ;

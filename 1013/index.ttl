@@ -6,38 +6,22 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.archaeology.link/data/maritimethesaurus/1013> a skos:Concept ;
-    rdfs:label "Stagning og dragning"@de,
-        "Stagning og dragning"@dk,
-        "Punting and towing"@en,
-        "propulsión a pértiga y a la siga"@es,
-        "À pôle et à corde de tirage"@fr,
-        "Ώθηση με κοντάρι και Ρυμούλκηση"@gr,
-        "דחיפה וגרירה"@he,
-        "Spinta e alaggio"@it,
-        "Punten en jagen"@nl,
-        "Napędzanie na pych i holowanie"@pl ;
+    rdfs:label "<Staken und treideln>"@de,
+        "Punting and towing"@en ;
     ns1:attributionName "Arbeitsbereich Wissenschaftliche IT, Digitale Plattformen und Tools des LEIZA" ;
     ns1:attributionURL <http://www.wikidata.org/entity/Q115264627> ;
     ns1:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
     dcterms:created "2022-11-18" ;
     dcterms:identifier <http://data.archaeology.link/data/maritimethesaurus/1013> ;
-    dcterms:issued "2023-03-23T13:40:30.340148+00:00"^^xsd:dateTime ;
-    dcterms:modified "2023-03-23T13:40:30.340148+00:00"^^xsd:dateTime ;
+    dcterms:issued "2023-03-23T15:32:39.618500+00:00"^^xsd:dateTime ;
+    dcterms:modified "2023-03-23T15:32:39.618500+00:00"^^xsd:dateTime ;
     dcterms:publisher <http://www.wikidata.org/entity/Q115264627> ;
-    rdfs:subClassOf <http://data.archaeology.link/data/maritimethesaurus/2625> ;
+    rdfs:subClassOf <http://data.archaeology.link/data/maritimethesaurus/B6DB9B> ;
     skos:inScheme <http://data.archaeology.link/data/maritimethesaurus/cs01> ;
-    skos:narrower <http://data.archaeology.link/data/maritimethesaurus/2625> ;
+    skos:narrower <http://data.archaeology.link/data/maritimethesaurus/B6DB9B> ;
     skos:note "This is a parent Concept of NAVIS I or NAVIS II and now NAVISone."@en ;
-    skos:prefLabel "Stagning og dragning"@de,
-        "Stagning og dragning"@dk,
-        "Punting and towing"@en,
-        "propulsión a pértiga y a la siga"@es,
-        "À pôle et à corde de tirage"@fr,
-        "Ώθηση με κοντάρι και Ρυμούλκηση"@gr,
-        "דחיפה וגרירה"@he,
-        "Spinta e alaggio"@it,
-        "Punten en jagen"@nl,
-        "Napędzanie na pych i holowanie"@pl ;
+    skos:prefLabel "<Staken und treideln>"@de,
+        "Punting and towing"@en ;
     skos:topConceptOf <http://data.archaeology.link/data/maritimethesaurus/cs01> ;
     prov:wasAttributedTo <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> ;
     prov:wasDerivedFrom <http://www.wikidata.org/entity/Q115264680> ;

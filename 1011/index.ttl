@@ -6,50 +6,34 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.archaeology.link/data/maritimethesaurus/1011> a skos:Concept ;
-    rdfs:label "Roranlæg"@de,
-        "Roranlæg"@dk,
-        "Steering gear"@en,
-        "aparato de gobierno"@es,
-        "Appareil à gouverner"@fr,
-        "Σύστημα πλοήγησης"@gr,
-        "מערך היגוי"@he,
-        "Dispositivo di governo"@it,
-        "Stuurinrichting"@nl,
-        "Urządzenie sterowe"@pl ;
+    rdfs:label "<Ruderanlage>"@de,
+        "Steering gear"@en ;
     ns1:attributionName "Arbeitsbereich Wissenschaftliche IT, Digitale Plattformen und Tools des LEIZA" ;
     ns1:attributionURL <http://www.wikidata.org/entity/Q115264627> ;
     ns1:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
     dcterms:created "2022-11-18" ;
     dcterms:identifier <http://data.archaeology.link/data/maritimethesaurus/1011> ;
-    dcterms:issued "2023-03-23T13:40:30.340148+00:00"^^xsd:dateTime ;
-    dcterms:modified "2023-03-23T13:40:30.340148+00:00"^^xsd:dateTime ;
+    dcterms:issued "2023-03-23T15:32:39.617503+00:00"^^xsd:dateTime ;
+    dcterms:modified "2023-03-23T15:32:39.617503+00:00"^^xsd:dateTime ;
     dcterms:publisher <http://www.wikidata.org/entity/Q115264627> ;
-    rdfs:subClassOf <http://data.archaeology.link/data/maritimethesaurus/2609>,
-        <http://data.archaeology.link/data/maritimethesaurus/2610>,
-        <http://data.archaeology.link/data/maritimethesaurus/2611>,
-        <http://data.archaeology.link/data/maritimethesaurus/2612>,
-        <http://data.archaeology.link/data/maritimethesaurus/2613>,
-        <http://data.archaeology.link/data/maritimethesaurus/2614>,
-        <http://data.archaeology.link/data/maritimethesaurus/2615> ;
+    rdfs:subClassOf <http://data.archaeology.link/data/maritimethesaurus/01E22C>,
+        <http://data.archaeology.link/data/maritimethesaurus/1C02BA>,
+        <http://data.archaeology.link/data/maritimethesaurus/287711>,
+        <http://data.archaeology.link/data/maritimethesaurus/33BF0F>,
+        <http://data.archaeology.link/data/maritimethesaurus/5FA6B8>,
+        <http://data.archaeology.link/data/maritimethesaurus/E865A5>,
+        <http://data.archaeology.link/data/maritimethesaurus/FE4152> ;
     skos:inScheme <http://data.archaeology.link/data/maritimethesaurus/cs01> ;
-    skos:narrower <http://data.archaeology.link/data/maritimethesaurus/2609>,
-        <http://data.archaeology.link/data/maritimethesaurus/2610>,
-        <http://data.archaeology.link/data/maritimethesaurus/2611>,
-        <http://data.archaeology.link/data/maritimethesaurus/2612>,
-        <http://data.archaeology.link/data/maritimethesaurus/2613>,
-        <http://data.archaeology.link/data/maritimethesaurus/2614>,
-        <http://data.archaeology.link/data/maritimethesaurus/2615> ;
+    skos:narrower <http://data.archaeology.link/data/maritimethesaurus/01E22C>,
+        <http://data.archaeology.link/data/maritimethesaurus/1C02BA>,
+        <http://data.archaeology.link/data/maritimethesaurus/287711>,
+        <http://data.archaeology.link/data/maritimethesaurus/33BF0F>,
+        <http://data.archaeology.link/data/maritimethesaurus/5FA6B8>,
+        <http://data.archaeology.link/data/maritimethesaurus/E865A5>,
+        <http://data.archaeology.link/data/maritimethesaurus/FE4152> ;
     skos:note "This is a parent Concept of NAVIS I or NAVIS II and now NAVISone."@en ;
-    skos:prefLabel "Roranlæg"@de,
-        "Roranlæg"@dk,
-        "Steering gear"@en,
-        "aparato de gobierno"@es,
-        "Appareil à gouverner"@fr,
-        "Σύστημα πλοήγησης"@gr,
-        "מערך היגוי"@he,
-        "Dispositivo di governo"@it,
-        "Stuurinrichting"@nl,
-        "Urządzenie sterowe"@pl ;
+    skos:prefLabel "<Ruderanlage>"@de,
+        "Steering gear"@en ;
     skos:topConceptOf <http://data.archaeology.link/data/maritimethesaurus/cs01> ;
     prov:wasAttributedTo <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> ;
     prov:wasDerivedFrom <http://www.wikidata.org/entity/Q115264680> ;

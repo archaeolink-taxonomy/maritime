@@ -6,44 +6,28 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.archaeology.link/data/maritimethesaurus/1019> a skos:Concept ;
-    rdfs:label "Overbygning"@de,
-        "Overbygning"@dk,
-        "Superstructure"@en,
-        "superestructura"@es,
-        "Superstructure"@fr,
-        "Υπερκατασκευή"@gr,
-        "מבנה עליון; מבנה על"@he,
-        "Sovrastruttura"@it,
-        "Opbouw"@nl,
-        "Nadbudowa"@pl ;
+    rdfs:label "<Aufbauten>"@de,
+        "Superstructure"@en ;
     ns1:attributionName "Arbeitsbereich Wissenschaftliche IT, Digitale Plattformen und Tools des LEIZA" ;
     ns1:attributionURL <http://www.wikidata.org/entity/Q115264627> ;
     ns1:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
     dcterms:created "2022-11-18" ;
     dcterms:identifier <http://data.archaeology.link/data/maritimethesaurus/1019> ;
-    dcterms:issued "2023-03-23T13:40:30.341189+00:00"^^xsd:dateTime ;
-    dcterms:modified "2023-03-23T13:40:30.341189+00:00"^^xsd:dateTime ;
+    dcterms:issued "2023-03-23T15:32:39.618500+00:00"^^xsd:dateTime ;
+    dcterms:modified "2023-03-23T15:32:39.618500+00:00"^^xsd:dateTime ;
     dcterms:publisher <http://www.wikidata.org/entity/Q115264627> ;
-    rdfs:subClassOf <http://data.archaeology.link/data/maritimethesaurus/2641>,
-        <http://data.archaeology.link/data/maritimethesaurus/2642>,
-        <http://data.archaeology.link/data/maritimethesaurus/2643>,
-        <http://data.archaeology.link/data/maritimethesaurus/2644> ;
+    rdfs:subClassOf <http://data.archaeology.link/data/maritimethesaurus/88987C>,
+        <http://data.archaeology.link/data/maritimethesaurus/8D2DDA>,
+        <http://data.archaeology.link/data/maritimethesaurus/9272A2>,
+        <http://data.archaeology.link/data/maritimethesaurus/CFF6DF> ;
     skos:inScheme <http://data.archaeology.link/data/maritimethesaurus/cs01> ;
-    skos:narrower <http://data.archaeology.link/data/maritimethesaurus/2641>,
-        <http://data.archaeology.link/data/maritimethesaurus/2642>,
-        <http://data.archaeology.link/data/maritimethesaurus/2643>,
-        <http://data.archaeology.link/data/maritimethesaurus/2644> ;
+    skos:narrower <http://data.archaeology.link/data/maritimethesaurus/88987C>,
+        <http://data.archaeology.link/data/maritimethesaurus/8D2DDA>,
+        <http://data.archaeology.link/data/maritimethesaurus/9272A2>,
+        <http://data.archaeology.link/data/maritimethesaurus/CFF6DF> ;
     skos:note "This is a parent Concept of NAVIS I or NAVIS II and now NAVISone."@en ;
-    skos:prefLabel "Overbygning"@de,
-        "Overbygning"@dk,
-        "Superstructure"@en,
-        "superestructura"@es,
-        "Superstructure"@fr,
-        "Υπερκατασκευή"@gr,
-        "מבנה עליון; מבנה על"@he,
-        "Sovrastruttura"@it,
-        "Opbouw"@nl,
-        "Nadbudowa"@pl ;
+    skos:prefLabel "<Aufbauten>"@de,
+        "Superstructure"@en ;
     skos:topConceptOf <http://data.archaeology.link/data/maritimethesaurus/cs01> ;
     prov:wasAttributedTo <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> ;
     prov:wasDerivedFrom <http://www.wikidata.org/entity/Q115264680> ;

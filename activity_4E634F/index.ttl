@@ -1,0 +1,8 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/maritimethesaurus/activity_4E634F> a prov:Activity ;
+    prov:endedAtTime "2023-03-23T15:32:39.633505+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-03-23T15:32:39.596399+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> .
+

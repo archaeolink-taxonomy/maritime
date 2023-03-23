@@ -6,46 +6,30 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.archaeology.link/data/maritimethesaurus/1008> a skos:Concept ;
-    rdfs:label "Dæk og klædning"@de,
-        "Dæk og klædning"@dk,
-        "Decks and Ceilings"@en,
-        "cubierta / guarnición"@es,
-        "Pontage"@fr,
-        "Κατάστρωμα και Φόδρο (Εντερώνεια)"@gr,
-        "סיפון וריצפה"@he,
-        "Ponti"@it,
-        "Dekken"@nl,
-        "Pokłady i szalunki"@pl ;
+    rdfs:label "<Decks und Weger>"@de,
+        "Decks and Ceilings"@en ;
     ns1:attributionName "Arbeitsbereich Wissenschaftliche IT, Digitale Plattformen und Tools des LEIZA" ;
     ns1:attributionURL <http://www.wikidata.org/entity/Q115264627> ;
     ns1:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
     dcterms:created "2022-11-18" ;
     dcterms:identifier <http://data.archaeology.link/data/maritimethesaurus/1008> ;
-    dcterms:issued "2023-03-23T13:40:30.339145+00:00"^^xsd:dateTime ;
-    dcterms:modified "2023-03-23T13:40:30.339145+00:00"^^xsd:dateTime ;
+    dcterms:issued "2023-03-23T15:32:39.617503+00:00"^^xsd:dateTime ;
+    dcterms:modified "2023-03-23T15:32:39.617503+00:00"^^xsd:dateTime ;
     dcterms:publisher <http://www.wikidata.org/entity/Q115264627> ;
-    rdfs:subClassOf <http://data.archaeology.link/data/maritimethesaurus/2568>,
-        <http://data.archaeology.link/data/maritimethesaurus/2569>,
-        <http://data.archaeology.link/data/maritimethesaurus/2570>,
-        <http://data.archaeology.link/data/maritimethesaurus/2571>,
-        <http://data.archaeology.link/data/maritimethesaurus/2572> ;
+    rdfs:subClassOf <http://data.archaeology.link/data/maritimethesaurus/0C22DB>,
+        <http://data.archaeology.link/data/maritimethesaurus/4026B3>,
+        <http://data.archaeology.link/data/maritimethesaurus/78C8CF>,
+        <http://data.archaeology.link/data/maritimethesaurus/CFD0AB>,
+        <http://data.archaeology.link/data/maritimethesaurus/E1C71C> ;
     skos:inScheme <http://data.archaeology.link/data/maritimethesaurus/cs01> ;
-    skos:narrower <http://data.archaeology.link/data/maritimethesaurus/2568>,
-        <http://data.archaeology.link/data/maritimethesaurus/2569>,
-        <http://data.archaeology.link/data/maritimethesaurus/2570>,
-        <http://data.archaeology.link/data/maritimethesaurus/2571>,
-        <http://data.archaeology.link/data/maritimethesaurus/2572> ;
+    skos:narrower <http://data.archaeology.link/data/maritimethesaurus/0C22DB>,
+        <http://data.archaeology.link/data/maritimethesaurus/4026B3>,
+        <http://data.archaeology.link/data/maritimethesaurus/78C8CF>,
+        <http://data.archaeology.link/data/maritimethesaurus/CFD0AB>,
+        <http://data.archaeology.link/data/maritimethesaurus/E1C71C> ;
     skos:note "This is a parent Concept of NAVIS I or NAVIS II and now NAVISone."@en ;
-    skos:prefLabel "Dæk og klædning"@de,
-        "Dæk og klædning"@dk,
-        "Decks and Ceilings"@en,
-        "cubierta / guarnición"@es,
-        "Pontage"@fr,
-        "Κατάστρωμα και Φόδρο (Εντερώνεια)"@gr,
-        "סיפון וריצפה"@he,
-        "Ponti"@it,
-        "Dekken"@nl,
-        "Pokłady i szalunki"@pl ;
+    skos:prefLabel "<Decks und Weger>"@de,
+        "Decks and Ceilings"@en ;
     skos:topConceptOf <http://data.archaeology.link/data/maritimethesaurus/cs01> ;
     prov:wasAttributedTo <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> ;
     prov:wasDerivedFrom <http://www.wikidata.org/entity/Q115264680> ;
