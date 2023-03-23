@@ -40,8 +40,9 @@
     <h1 id="title">activity_2582<span style="font-size: 16px;font-weight: 300;font-style: italic;">EN</span></h1>
     <script>
     if (window.location.href.includes("index.html")) {
-      <br>
-      <span id="titletwo">http://data.archaeology.link/data/maritimethesaurus/activity_2582</span>
+      document.write('<br><span id="titletwo">http://data.archaeology.link/data/maritimethesaurus/activity_2582</span>');
+    } else {
+      console.log(window.location.href);
     }
     </script>
   </div>

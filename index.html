@@ -40,8 +40,9 @@
     <h1 id="title">Index page for http://data.archaeology.link/data/maritimethesaurus/<span style="font-size: 16px;font-weight: 300;font-style: italic;">EN</span></h1>
     <script>
     if (window.location.href.includes("index.html")) {
-      <br>
-      <span id="titletwo">{{subject}}</span>
+      document.write('<br><span id="titletwo">{{subject}}</span>');
+    } else {
+      console.log(window.location.href);
     }
     </script>
   </div>
