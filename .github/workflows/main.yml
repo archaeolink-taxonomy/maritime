@@ -26,6 +26,7 @@ jobs:
         createcollections: false
         preferredlang: en
         ghpages: true
+        metadatatable: true
         logourl: https://raw.githubusercontent.com/archaeolink-lod/unicorn-ontdoc-template-nmt/main/icons/al_circle_icon.png
         templatedir: https://github.com/archaeolink-lod/unicorn-ontdoc-template-nmt/archive/refs/tags/v0.1.23.zip
       
