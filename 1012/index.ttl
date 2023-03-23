@@ -13,28 +13,28 @@
     ns1:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
     dcterms:created "2022-11-18" ;
     dcterms:identifier <http://data.archaeology.link/data/maritimethesaurus/1012> ;
-    dcterms:issued "2023-03-23T15:55:16.511894+00:00"^^xsd:dateTime ;
-    dcterms:modified "2023-03-23T15:55:16.511894+00:00"^^xsd:dateTime ;
+    dcterms:issued "2023-03-23T18:10:21.293984+00:00"^^xsd:dateTime ;
+    dcterms:modified "2023-03-23T18:10:21.293984+00:00"^^xsd:dateTime ;
     dcterms:publisher <http://www.wikidata.org/entity/Q115264627> ;
-    rdfs:subClassOf <http://data.archaeology.link/data/maritimethesaurus/1B5D3C>,
-        <http://data.archaeology.link/data/maritimethesaurus/3603E6>,
-        <http://data.archaeology.link/data/maritimethesaurus/6EDC6E>,
-        <http://data.archaeology.link/data/maritimethesaurus/6FDEE8>,
-        <http://data.archaeology.link/data/maritimethesaurus/71B0DA>,
-        <http://data.archaeology.link/data/maritimethesaurus/8BF813>,
-        <http://data.archaeology.link/data/maritimethesaurus/BC051E>,
-        <http://data.archaeology.link/data/maritimethesaurus/C64348>,
-        <http://data.archaeology.link/data/maritimethesaurus/C84B3B> ;
+    rdfs:subClassOf <http://data.archaeology.link/data/maritimethesaurus/379A2E>,
+        <http://data.archaeology.link/data/maritimethesaurus/3C3311>,
+        <http://data.archaeology.link/data/maritimethesaurus/4B0A52>,
+        <http://data.archaeology.link/data/maritimethesaurus/75D305>,
+        <http://data.archaeology.link/data/maritimethesaurus/9A4CAE>,
+        <http://data.archaeology.link/data/maritimethesaurus/A1A0DE>,
+        <http://data.archaeology.link/data/maritimethesaurus/A3C7CB>,
+        <http://data.archaeology.link/data/maritimethesaurus/D8EF0C>,
+        <http://data.archaeology.link/data/maritimethesaurus/DCA950> ;
     skos:inScheme <http://data.archaeology.link/data/maritimethesaurus/cs01> ;
-    skos:narrower <http://data.archaeology.link/data/maritimethesaurus/1B5D3C>,
-        <http://data.archaeology.link/data/maritimethesaurus/3603E6>,
-        <http://data.archaeology.link/data/maritimethesaurus/6EDC6E>,
-        <http://data.archaeology.link/data/maritimethesaurus/6FDEE8>,
-        <http://data.archaeology.link/data/maritimethesaurus/71B0DA>,
-        <http://data.archaeology.link/data/maritimethesaurus/8BF813>,
-        <http://data.archaeology.link/data/maritimethesaurus/BC051E>,
-        <http://data.archaeology.link/data/maritimethesaurus/C64348>,
-        <http://data.archaeology.link/data/maritimethesaurus/C84B3B> ;
+    skos:narrower <http://data.archaeology.link/data/maritimethesaurus/379A2E>,
+        <http://data.archaeology.link/data/maritimethesaurus/3C3311>,
+        <http://data.archaeology.link/data/maritimethesaurus/4B0A52>,
+        <http://data.archaeology.link/data/maritimethesaurus/75D305>,
+        <http://data.archaeology.link/data/maritimethesaurus/9A4CAE>,
+        <http://data.archaeology.link/data/maritimethesaurus/A1A0DE>,
+        <http://data.archaeology.link/data/maritimethesaurus/A3C7CB>,
+        <http://data.archaeology.link/data/maritimethesaurus/D8EF0C>,
+        <http://data.archaeology.link/data/maritimethesaurus/DCA950> ;
     skos:note "This is a parent Concept of NAVIS I or NAVIS II and now NAVISone."@en ;
     skos:prefLabel "[Rudern und paddeln]"@de,
         "[rowing and paddling]"@en ;
