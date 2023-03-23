@@ -5,10 +5,10 @@
 <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> a prov:SoftwareAgent ;
     dcterms:bibliographicCitation <https://github.com/archaeolink/navisone-maritime-thesaurus/blob/main/CITATION.cff>,
         "10.5281/zenodo.7353771" ;
+    dcterms:creator <http://www.wikidata.org/entity/Q66606154> ;
     dcterms:license <https://github.com/archaeolink/navisone-maritime-thesaurus/blob/main/LICENCE>,
         "MIT License"@en ;
-    dcterms:source <http://www.wikidata.org/entity/Q66606154>,
-        <https://github.com/archaeolink/navisone-maritime-thesaurus>,
+    dcterms:source <https://github.com/archaeolink/navisone-maritime-thesaurus>,
         <https://github.com/archaeolink/navisone-maritime-thesaurus/blob/main/py/skos.py> ;
     rdfs:seeAlso <https://github.com/archaeolink/navisone-maritime-thesaurus>,
         <https://github.com/archaeolink/navisone-maritime-thesaurus/blob/main/py/skos.py> .
