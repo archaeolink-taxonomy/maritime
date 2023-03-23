@@ -23,7 +23,7 @@
     ns2:attributionURL <http://www.wikidata.org/entity/Q115264627> ;
     ns2:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
     dcterms:identifier <http://data.archaeology.link/data/maritimethesaurus/> ;
-    dcterms:issued "2023-03-22T18:36:17.969995+00:00"^^xsd:dateTime ;
+    dcterms:issued "2023-03-23T10:45:47.357271+00:00"^^xsd:dateTime ;
     dcterms:publisher <http://www.wikidata.org/entity/Q115264627> ;
     skos:broader <http://data.archaeology.link/data/maritimethesaurus/1015> ;
     skos:inScheme <http://data.archaeology.link/data/maritimethesaurus/cs01> ;
