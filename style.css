@@ -91,6 +91,7 @@ h2 {
   font-size: 116%;
   margin: 0.2em 0;
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 .page-resource-uri a {
   color: #666;
@@ -272,4 +273,9 @@ body {
   .sidenav a {
     font-size: 18px;
   }
+}
+
+.ui-widget {
+  font-family: "Cairo", sans-serif !important;
+  padding-bottom: 10px;
 }
