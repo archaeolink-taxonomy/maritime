@@ -6,15 +6,15 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.archaeology.link/data/maritimethesaurus/1010> a skos:Concept ;
-    rdfs:label "<Besegelung>"@de,
-        "<sailing gear>"@en ;
+    rdfs:label "[Besegelung]"@de,
+        "[sailing gear]"@en ;
     ns1:attributionName "Arbeitsbereich Wissenschaftliche IT, Digitale Plattformen und Tools des LEIZA" ;
     ns1:attributionURL <http://www.wikidata.org/entity/Q115264627> ;
     ns1:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
     dcterms:created "2022-11-18" ;
     dcterms:identifier <http://data.archaeology.link/data/maritimethesaurus/1010> ;
-    dcterms:issued "2023-03-23T15:48:42.461105+00:00"^^xsd:dateTime ;
-    dcterms:modified "2023-03-23T15:48:42.461105+00:00"^^xsd:dateTime ;
+    dcterms:issued "2023-03-23T15:55:16.511894+00:00"^^xsd:dateTime ;
+    dcterms:modified "2023-03-23T15:55:16.511894+00:00"^^xsd:dateTime ;
     dcterms:publisher <http://www.wikidata.org/entity/Q115264627> ;
     rdfs:subClassOf <http://data.archaeology.link/data/maritimethesaurus/0741A5>,
         <http://data.archaeology.link/data/maritimethesaurus/137F48>,
@@ -64,8 +64,8 @@
         <http://data.archaeology.link/data/maritimethesaurus/F4937E>,
         <http://data.archaeology.link/data/maritimethesaurus/F4B395> ;
     skos:note "This is a parent Concept of NAVIS I or NAVIS II and now NAVISone."@en ;
-    skos:prefLabel "<Besegelung>"@de,
-        "<sailing gear>"@en ;
+    skos:prefLabel "[Besegelung]"@de,
+        "[sailing gear]"@en ;
     skos:topConceptOf <http://data.archaeology.link/data/maritimethesaurus/cs01> ;
     prov:wasAttributedTo <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> ;
     prov:wasDerivedFrom <http://www.wikidata.org/entity/Q115264680> ;

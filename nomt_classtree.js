@@ -165,112 +165,112 @@ var tree={
         "id": "http://data.archaeology.link/data/maritimethesaurus/1001",
         "parent": "http://www.w3.org/2004/02/skos/core#Concept",
         "type": "instance",
-        "text": "<Schiffsfunktion> (nomt:1001)",
+        "text": "[Schiffsfunktion] (nomt:1001)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/maritimethesaurus/1002",
         "parent": "http://www.w3.org/2004/02/skos/core#Concept",
         "type": "instance",
-        "text": "<Arbeitsumgebung> (nomt:1002)",
+        "text": "[Arbeitsumgebung] (nomt:1002)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/maritimethesaurus/1006",
         "parent": "http://www.w3.org/2004/02/skos/core#Concept",
         "type": "instance",
-        "text": "<Rumpf> (nomt:1006)",
+        "text": "[Rumpf] (nomt:1006)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/maritimethesaurus/1007",
         "parent": "http://www.w3.org/2004/02/skos/core#Concept",
         "type": "instance",
-        "text": "<Innenkonstruktion> (nomt:1007)",
+        "text": "[Innenkonstruktion] (nomt:1007)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/maritimethesaurus/1008",
         "parent": "http://www.w3.org/2004/02/skos/core#Concept",
         "type": "instance",
-        "text": "<Decks und Weger> (nomt:1008)",
+        "text": "[Decks und Weger] (nomt:1008)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/maritimethesaurus/1003",
         "parent": "http://www.w3.org/2004/02/skos/core#Concept",
         "type": "instance",
-        "text": "<Antrieb> (nomt:1003)",
+        "text": "[Antrieb] (nomt:1003)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/maritimethesaurus/1004",
         "parent": "http://www.w3.org/2004/02/skos/core#Concept",
         "type": "instance",
-        "text": "<Schiffstyp> (nomt:1004)",
+        "text": "[Schiffstyp] (nomt:1004)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/maritimethesaurus/1009",
         "parent": "http://www.w3.org/2004/02/skos/core#Concept",
         "type": "instance",
-        "text": "<Konstruktionsmerkmale> (nomt:1009)",
+        "text": "[Konstruktionsmerkmale] (nomt:1009)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/maritimethesaurus/1010",
         "parent": "http://www.w3.org/2004/02/skos/core#Concept",
         "type": "instance",
-        "text": "<Besegelung> (nomt:1010)",
+        "text": "[Besegelung] (nomt:1010)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/maritimethesaurus/1011",
         "parent": "http://www.w3.org/2004/02/skos/core#Concept",
         "type": "instance",
-        "text": "<Ruderanlage> (nomt:1011)",
+        "text": "[Ruderanlage] (nomt:1011)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/maritimethesaurus/1012",
         "parent": "http://www.w3.org/2004/02/skos/core#Concept",
         "type": "instance",
-        "text": "<Rudern und paddeln> (nomt:1012)",
+        "text": "[Rudern und paddeln] (nomt:1012)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/maritimethesaurus/1013",
         "parent": "http://www.w3.org/2004/02/skos/core#Concept",
         "type": "instance",
-        "text": "<Staken und treideln> (nomt:1013)",
+        "text": "[Staken und treideln] (nomt:1013)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/maritimethesaurus/1014",
         "parent": "http://www.w3.org/2004/02/skos/core#Concept",
         "type": "instance",
-        "text": "<Handhabung> (nomt:1014)",
+        "text": "[Handhabung] (nomt:1014)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/maritimethesaurus/1015",
         "parent": "http://www.w3.org/2004/02/skos/core#Concept",
         "type": "instance",
-        "text": "<Kriegsf\u00fchrung> (nomt:1015)",
+        "text": "[Kriegsf\u00fchrung] (nomt:1015)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/maritimethesaurus/1016",
         "parent": "http://www.w3.org/2004/02/skos/core#Concept",
         "type": "instance",
-        "text": "<Oberfl\u00e4chenbehandlung> (nomt:1016)",
+        "text": "[Oberfl\u00e4chenbehandlung] (nomt:1016)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/maritimethesaurus/1019",
         "parent": "http://www.w3.org/2004/02/skos/core#Concept",
         "type": "instance",
-        "text": "<Aufbauten> (nomt:1019)",
+        "text": "[Aufbauten] (nomt:1019)",
         "data": {}
       },
       {

@@ -2,7 +2,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.archaeology.link/data/maritimethesaurus/activity_3603E6> a prov:Activity ;
-    prov:endedAtTime "2023-03-23T15:48:42.479429+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2023-03-23T15:48:42.442941+00:00"^^xsd:dateTime ;
+    prov:endedAtTime "2023-03-23T15:55:16.534893+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-03-23T15:55:16.498897+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> .
 
