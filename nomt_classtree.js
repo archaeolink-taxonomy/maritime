@@ -56,8 +56,14 @@ var tree={
         "text": "SoftwareAgent (prov:SoftwareAgent) [1]",
         "data": {
           "to": {
-            "http://purl.org/dc/terms/source": {
+            "http://purl.org/dc/terms/bibliographicCitation": {
               "instancecount": 2
+            },
+            "http://purl.org/dc/terms/license": {
+              "instancecount": 2
+            },
+            "http://purl.org/dc/terms/source": {
+              "instancecount": 3
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
@@ -78,7 +84,7 @@ var tree={
             }
           }
         },
-        "instancecount": 5
+        "instancecount": 10
       },
       {
         "id": "http://data.archaeology.link/data/maritimethesaurus/cs01",

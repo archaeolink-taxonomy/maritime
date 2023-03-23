@@ -27,8 +27,8 @@
     ns1:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
     dcterms:created "2022-11-18" ;
     dcterms:identifier <http://data.archaeology.link/data/maritimethesaurus/2527> ;
-    dcterms:issued "2023-03-23T13:25:36.629238+00:00"^^xsd:dateTime ;
-    dcterms:modified "2023-03-23T13:25:36.629238+00:00"^^xsd:dateTime ;
+    dcterms:issued "2023-03-23T13:35:50.502614+00:00"^^xsd:dateTime ;
+    dcterms:modified "2023-03-23T13:35:50.503611+00:00"^^xsd:dateTime ;
     dcterms:publisher <http://www.wikidata.org/entity/Q115264627> ;
     rdfs:comment "wichtigster, mittschiffs im Boden angebrachte Längsverband eines Schiffes oder Bootes. (Wikidata)"@de,
         "Main structural members running for and aft along the bottom of a ship or boat, to which the frame of the vessel is attached. (Getty AAT)"@en ;
