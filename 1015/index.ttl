@@ -13,22 +13,22 @@
     ns1:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
     dcterms:created "2022-11-18" ;
     dcterms:identifier <http://data.archaeology.link/data/maritimethesaurus/1015> ;
-    dcterms:issued "2023-03-23T15:55:16.512897+00:00"^^xsd:dateTime ;
-    dcterms:modified "2023-03-23T15:55:16.512897+00:00"^^xsd:dateTime ;
+    dcterms:issued "2023-03-23T18:10:21.293984+00:00"^^xsd:dateTime ;
+    dcterms:modified "2023-03-23T18:10:21.293984+00:00"^^xsd:dateTime ;
     dcterms:publisher <http://www.wikidata.org/entity/Q115264627> ;
-    rdfs:subClassOf <http://data.archaeology.link/data/maritimethesaurus/045F07>,
-        <http://data.archaeology.link/data/maritimethesaurus/172BD7>,
-        <http://data.archaeology.link/data/maritimethesaurus/369740>,
-        <http://data.archaeology.link/data/maritimethesaurus/5C8CF5>,
-        <http://data.archaeology.link/data/maritimethesaurus/9F24E8>,
-        <http://data.archaeology.link/data/maritimethesaurus/B44495> ;
+    rdfs:subClassOf <http://data.archaeology.link/data/maritimethesaurus/15087C>,
+        <http://data.archaeology.link/data/maritimethesaurus/9416B4>,
+        <http://data.archaeology.link/data/maritimethesaurus/A3EBFA>,
+        <http://data.archaeology.link/data/maritimethesaurus/BE91AE>,
+        <http://data.archaeology.link/data/maritimethesaurus/D060C4>,
+        <http://data.archaeology.link/data/maritimethesaurus/DB88D4> ;
     skos:inScheme <http://data.archaeology.link/data/maritimethesaurus/cs01> ;
-    skos:narrower <http://data.archaeology.link/data/maritimethesaurus/045F07>,
-        <http://data.archaeology.link/data/maritimethesaurus/172BD7>,
-        <http://data.archaeology.link/data/maritimethesaurus/369740>,
-        <http://data.archaeology.link/data/maritimethesaurus/5C8CF5>,
-        <http://data.archaeology.link/data/maritimethesaurus/9F24E8>,
-        <http://data.archaeology.link/data/maritimethesaurus/B44495> ;
+    skos:narrower <http://data.archaeology.link/data/maritimethesaurus/15087C>,
+        <http://data.archaeology.link/data/maritimethesaurus/9416B4>,
+        <http://data.archaeology.link/data/maritimethesaurus/A3EBFA>,
+        <http://data.archaeology.link/data/maritimethesaurus/BE91AE>,
+        <http://data.archaeology.link/data/maritimethesaurus/D060C4>,
+        <http://data.archaeology.link/data/maritimethesaurus/DB88D4> ;
     skos:note "This is a parent Concept of NAVIS I or NAVIS II and now NAVISone."@en ;
     skos:prefLabel "[Kriegsführung]"@de,
         "[warfare]"@en ;

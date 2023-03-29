@@ -13,18 +13,18 @@
     ns1:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
     dcterms:created "2022-11-18" ;
     dcterms:identifier <http://data.archaeology.link/data/maritimethesaurus/1002> ;
-    dcterms:issued "2023-03-23T15:55:16.510897+00:00"^^xsd:dateTime ;
-    dcterms:modified "2023-03-23T15:55:16.510897+00:00"^^xsd:dateTime ;
+    dcterms:issued "2023-03-23T18:10:21.292965+00:00"^^xsd:dateTime ;
+    dcterms:modified "2023-03-23T18:10:21.292965+00:00"^^xsd:dateTime ;
     dcterms:publisher <http://www.wikidata.org/entity/Q115264627> ;
-    rdfs:subClassOf <http://data.archaeology.link/data/maritimethesaurus/1243AD>,
-        <http://data.archaeology.link/data/maritimethesaurus/1DF903>,
-        <http://data.archaeology.link/data/maritimethesaurus/476A2A>,
-        <http://data.archaeology.link/data/maritimethesaurus/E23219> ;
+    rdfs:subClassOf <http://data.archaeology.link/data/maritimethesaurus/2EA1AB>,
+        <http://data.archaeology.link/data/maritimethesaurus/7D2D8B>,
+        <http://data.archaeology.link/data/maritimethesaurus/D800BA>,
+        <http://data.archaeology.link/data/maritimethesaurus/E0984E> ;
     skos:inScheme <http://data.archaeology.link/data/maritimethesaurus/cs01> ;
-    skos:narrower <http://data.archaeology.link/data/maritimethesaurus/1243AD>,
-        <http://data.archaeology.link/data/maritimethesaurus/1DF903>,
-        <http://data.archaeology.link/data/maritimethesaurus/476A2A>,
-        <http://data.archaeology.link/data/maritimethesaurus/E23219> ;
+    skos:narrower <http://data.archaeology.link/data/maritimethesaurus/2EA1AB>,
+        <http://data.archaeology.link/data/maritimethesaurus/7D2D8B>,
+        <http://data.archaeology.link/data/maritimethesaurus/D800BA>,
+        <http://data.archaeology.link/data/maritimethesaurus/E0984E> ;
     skos:note "This is a parent Concept of NAVIS I or NAVIS II and now NAVISone."@en ;
     skos:prefLabel "[Arbeitsumgebung]"@de,
         "[operating environment]"@en ;

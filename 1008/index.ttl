@@ -13,20 +13,20 @@
     ns1:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
     dcterms:created "2022-11-18" ;
     dcterms:identifier <http://data.archaeology.link/data/maritimethesaurus/1008> ;
-    dcterms:issued "2023-03-23T15:55:16.511894+00:00"^^xsd:dateTime ;
-    dcterms:modified "2023-03-23T15:55:16.511894+00:00"^^xsd:dateTime ;
+    dcterms:issued "2023-03-23T18:10:21.292965+00:00"^^xsd:dateTime ;
+    dcterms:modified "2023-03-23T18:10:21.292965+00:00"^^xsd:dateTime ;
     dcterms:publisher <http://www.wikidata.org/entity/Q115264627> ;
-    rdfs:subClassOf <http://data.archaeology.link/data/maritimethesaurus/0C22DB>,
-        <http://data.archaeology.link/data/maritimethesaurus/4026B3>,
-        <http://data.archaeology.link/data/maritimethesaurus/78C8CF>,
-        <http://data.archaeology.link/data/maritimethesaurus/CFD0AB>,
-        <http://data.archaeology.link/data/maritimethesaurus/E1C71C> ;
+    rdfs:subClassOf <http://data.archaeology.link/data/maritimethesaurus/0BE8C2>,
+        <http://data.archaeology.link/data/maritimethesaurus/10E2CF>,
+        <http://data.archaeology.link/data/maritimethesaurus/61AB9E>,
+        <http://data.archaeology.link/data/maritimethesaurus/817F57>,
+        <http://data.archaeology.link/data/maritimethesaurus/EF0C63> ;
     skos:inScheme <http://data.archaeology.link/data/maritimethesaurus/cs01> ;
-    skos:narrower <http://data.archaeology.link/data/maritimethesaurus/0C22DB>,
-        <http://data.archaeology.link/data/maritimethesaurus/4026B3>,
-        <http://data.archaeology.link/data/maritimethesaurus/78C8CF>,
-        <http://data.archaeology.link/data/maritimethesaurus/CFD0AB>,
-        <http://data.archaeology.link/data/maritimethesaurus/E1C71C> ;
+    skos:narrower <http://data.archaeology.link/data/maritimethesaurus/0BE8C2>,
+        <http://data.archaeology.link/data/maritimethesaurus/10E2CF>,
+        <http://data.archaeology.link/data/maritimethesaurus/61AB9E>,
+        <http://data.archaeology.link/data/maritimethesaurus/817F57>,
+        <http://data.archaeology.link/data/maritimethesaurus/EF0C63> ;
     skos:note "This is a parent Concept of NAVIS I or NAVIS II and now NAVISone."@en ;
     skos:prefLabel "[Decks und Weger]"@de,
         "[decks and ceilings]"@en ;
