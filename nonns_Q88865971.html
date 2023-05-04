@@ -1,4 +1,4 @@
-<html about="{{subject}}">
+<html about="http://www.wikidata.org/entity/Q88865971">
   <head>
     <script>
       if (window.location.href.includes("index.html")) {
@@ -42,7 +42,7 @@
     <script src="vowl_result.js"></script>
     <script src="nomt_search.js"></script>
     <script src="nomt_classtree.js"></script>
-    <script src="{{proprelationpath}}"></script>
+    <script src="proprelations.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.14/jstree.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/rdflib@2.2.19/dist/rdflib.min.js"></script>
     <script
@@ -60,7 +60,7 @@
     <div id="jstree"></div>
   </div>
   <script>
-    var indexpage=true
+    var indexpage=false
     var relativedepth=0
   </script>
 
@@ -81,7 +81,7 @@
       <script>
         if (window.location.href.includes("index.html")) {
           document.write(
-            '<h1 id="title">https://raw.githubusercontent.com/archaeolink-lod/unicorn-ontdoc-template-nmt/main/icons/al_circle_icon.pngDr. Allard Wijnand Mees FSA<span style="font-size: 16px;font-weight: 300;font-style: italic;">EN</span></h1>'
+            '<h1 id="title"><img src="https://raw.githubusercontent.com/archaeolink-lod/unicorn-ontdoc-template-nmt/main/icons/al_circle_icon.png" alt="logo" width="25" height="25"/>&nbsp;&nbsp;Dr. Allard Wijnand Mees FSA<span style="font-size: 16px;font-weight: 300;font-style: italic;">EN</span></h1>'
           );
         } else {
           document.write(
@@ -89,7 +89,7 @@
           );
         }
         if (window.location.href.includes("index.html")) {
-          document.write('<br><span id="titletwo">{{subject}}</span>');
+          document.write('<br><span id="titletwo">http://www.wikidata.org/entity/Q88865971</span>');
         } else {
           console.log(window.location.href);
         }
@@ -159,7 +159,7 @@
     </div>
   </body>
 </html>
-<table border="1" width="100%" class="description"><tr><th>Property</th><th>Value</th></tr><tr class="odd"><td>Is <a href="http://purl.org/dc/terms/creator">creator</a> of</td><td><ul><li><a href="cs01/index.html">NAVISone Maritime Thesaurus</a></li></ul></td></tr></table><div id="footer">
+<div style="overflow-x:auto;"><table border=1 width=100% class=description><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody><tr class="even"><td class="property">Is <span class="property-name"><a class="uri" target="_blank" href="http://purl.org/dc/terms/creator">creator <span style="color: #666;">(terms:creator)</span></a> </span> of</td><td class="wrapword"><span><a property="http://purl.org/dc/terms/creator"  about="http://data.archaeology.link/data/maritimethesaurus/cs01" resource="http://www.wikidata.org/entity/Q88865971" href="cs01/index.html">NAVISone Maritime Thesaurus <span style="color: #666;">(nomt:cs01)</span></a></span></td></tr></tbody></table></div><div id="footer">
     <center style="padding-top:30px;font-size:11px;"><b><a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a> | Leibniz-Zentrum für Archäologie (2022-2023)
             | Florian Thiery M.Sc., Dr. Allard W. Mees FSA</b><br><a href="https://web.rgzm.de/ueber-uns/impressum/">Impressum</a>
         | <a href="https://web.rgzm.de/ueber-uns/datenschutzerklaerung/">Datenschutz</a></center>
