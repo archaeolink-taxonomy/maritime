@@ -28,6 +28,7 @@ jobs:
         ghpages: true
         metadatatable: true
         createnonNSPages: true
+        datasettitle: NAVISone Maritime Thesaurus
         logourl: https://raw.githubusercontent.com/archaeolink-lod/unicorn-ontdoc-template-nmt/main/icons/al_circle_icon.png
         templatedir: https://github.com/archaeolink-lod/unicorn-ontdoc-template-archaeolink/archive/refs/tags/v0.5.zip
       
