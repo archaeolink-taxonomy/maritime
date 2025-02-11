@@ -20,7 +20,7 @@ jobs:
     with: 
         rdffilepath: data/navisone_maritime_thesaurus.ttl
         docpath: docs
-        prefixns: http://data.archaeology.link/data/maritimethesaurus/
+        prefixns: http://data.archaeology.link/taxonomy/maritime/
         prefixnsshort: nomt
         indexpages: true
         createcollections: false
